@@ -1,9 +1,10 @@
 import React from 'react';
+import SideNav from '../components/SideNav'
 
 function Home() {
     return (
         <div>
-            MARS
+            <SideNav />
         </div>
     )
 }
