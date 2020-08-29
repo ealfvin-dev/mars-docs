@@ -1,14 +1,15 @@
 import React from 'react';
+import './Home.css'
 
 function Home() {
     return (
         <div>
-            <h1>
+            <div className="mainHeader">
                 MARS
-            </h1>
-            <h3>
+            </div>
+            <div className="secondaryHeader">
                 Mass Reduction Software
-            </h3>
+            </div>
         </div>
     )
 }
