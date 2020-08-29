@@ -11,10 +11,13 @@ function Home() {
             <div className="home">
                 <Grid container spacing={3}>
                     <Grid item xs={5}>
-                        <h3>Find Errors in Input Files</h3>
+                        <h3>Catch Errors in Input Files Before They Run</h3>
+                        <p>
+                            
+                        </p>
                     </Grid>
                     <Grid item xs={7}>
-                        <h3>Image...</h3>
+                        <img src={require('./error-handling.jpg')} width='100%' alt="Input file with caught error" />
                     </Grid>
                 </Grid>
             </div>
