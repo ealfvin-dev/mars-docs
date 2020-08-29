@@ -1,0 +1,17 @@
+.header {
+    margin-bottom: 50px;
+}
+
+.mainHeader {
+    font-size: 55pt;
+    font-weight: 800;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.secondaryHeader {
+    font-size: 20pt;
+    font-weight: 500;
+    margin: 10px;
+    margin-top: 0px;
+}
