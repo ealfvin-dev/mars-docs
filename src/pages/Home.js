@@ -1,10 +1,14 @@
 import React from 'react';
-import SideNav from '../components/SideNav'
 
 function Home() {
     return (
         <div>
-            <SideNav />
+            <h1>
+                MARS
+            </h1>
+            <h3>
+                Mass Reduction Software
+            </h3>
         </div>
     )
 }

@@ -11,9 +11,6 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-        display: 'flex',
-    },
     drawer: {
         [theme.breakpoints.up('sm')]: {
         width: drawerWidth,
@@ -48,17 +45,26 @@ function SideNav(props) {
     const classes = useStyles();
     const theme = useTheme();
     const [mobileOpen, setMobileOpen] = React.useState(false);
+    const [activeTab, setActiveTab] = React.useState("Home");
 
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
     };
+
+    const handleNavClick = (e) => {
+        setActiveTab(e.target.text);
+    }
 
     const drawer = (
         <div>
             <List>
                 {['Home', 'About', 'Documentation'].map((text, index) => (
                     <ListItem key={index}>
-                        <Link to={"/" + text} style={{ textDecoration: 'none', color: 'black', fontSize: '12pt', margin: '6px' }}>
+                        <Link 
+                        to={"/" + text.toLowerCase()}
+                        onClick={handleNavClick}
+                        style={{ textDecoration: 'none', color: 'black', fontSize: '12pt', margin: '6px', fontWeight: text === activeTab ? 'bold' : 'normal' }}
+                        >
                             {text}
                         </Link>
                     </ListItem>
@@ -68,7 +74,11 @@ function SideNav(props) {
             <List>
                 {['Example Files'].map((text, index) => (
                 <ListItem key={index}>
-                    <Link to={"/" + text} style={{ textDecoration: 'none', color: 'black', fontSize: '12pt', margin: '6px' }}>
+                    <Link 
+                    to={"/examplefiles"}
+                    onClick={handleNavClick}
+                    style={{ textDecoration: 'none', color: 'black', fontSize: '12pt', margin: '6px', fontWeight: text === activeTab ? 'bold' : 'normal' }}
+                    >
                         {text}
                     </Link>
                 </ListItem>
@@ -80,7 +90,7 @@ function SideNav(props) {
     const container = window !== undefined ? () => window().document.body : undefined;
 
     return (
-        <div className={classes.root}>
+        <div>
             <CssBaseline />
             <nav className={classes.drawer} aria-label="folders">
                 {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
@@ -113,14 +123,6 @@ function SideNav(props) {
                     </Drawer>
                 </Hidden>
             </nav>
-            <main className={classes.content}>
-                <h1>
-                    MARS
-                </h1>
-                <h3>
-                    Mass Reduction Software
-                </h3>
-            </main>
         </div>
     );
 }
