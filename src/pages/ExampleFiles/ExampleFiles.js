@@ -1,11 +1,10 @@
 import React from 'react';
+import Header from '../../components/Header';
 
 function ExampleFiles() {
     return (
         <div>
-            <h1>
-                Example Files
-            </h1>
+            <Header subHeader="Mass Reduction Software: Example Files" />
         </div>
     )
 }

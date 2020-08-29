@@ -1,0 +1,9 @@
+.divider {
+    border-top-color: rgba(39.525, 55.335, 74.46, 165.75);
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}

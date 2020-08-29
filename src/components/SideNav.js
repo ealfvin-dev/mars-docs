@@ -8,36 +8,19 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 
-const drawerWidth = 240;
+const drawerWidth = 230;
 
 const useStyles = makeStyles((theme) => ({
     drawer: {
         [theme.breakpoints.up('sm')]: {
         width: drawerWidth,
-        flexShrink: 0,
+        flexShrink: 0
         },
     },
-    appBar: {
-        [theme.breakpoints.up('sm')]: {
-        width: `calc(100% - ${drawerWidth}px)`,
-        marginLeft: drawerWidth,
-        },
-    },
-    menuButton: {
-        marginRight: theme.spacing(2),
-        [theme.breakpoints.up('sm')]: {
-        display: 'none',
-        },
-    },
-    // necessary for content to be below app bar
-    toolbar: theme.mixins.toolbar,
     drawerPaper: {
         width: drawerWidth,
-    },
-    content: {
-        flexGrow: 1,
-        padding: theme.spacing(3),
-    },
+        backgroundColor: 'rgba(39.525, 55.335, 74.46, 165.75)'
+    }
 }));
 
 function SideNav(props) {
@@ -63,7 +46,7 @@ function SideNav(props) {
                         <Link 
                         to={"/" + text.toLowerCase()}
                         onClick={handleNavClick}
-                        style={{ textDecoration: 'none', color: 'black', fontSize: '12pt', margin: '6px', fontWeight: text === activeTab ? 'bold' : 'normal' }}
+                        style={{ textDecoration: 'none', color: 'white', fontSize: '12pt', margin: '2%', fontWeight: text === activeTab ? 'bold' : 'normal' }}
                         >
                             {text}
                         </Link>
@@ -77,7 +60,7 @@ function SideNav(props) {
                     <Link 
                     to={"/examplefiles"}
                     onClick={handleNavClick}
-                    style={{ textDecoration: 'none', color: 'black', fontSize: '12pt', margin: '6px', fontWeight: text === activeTab ? 'bold' : 'normal' }}
+                    style={{ textDecoration: 'none', color: 'white', fontSize: '12pt', margin: '2%', fontWeight: text === activeTab ? 'bold' : 'normal' }}
                     >
                         {text}
                     </Link>

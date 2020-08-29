@@ -1,11 +1,10 @@
 import React from 'react';
+import Header from '../../components/Header';
 
 function About() {
     return (
         <div>
-            <h1>
-                About Mars
-            </h1>
+            <Header subHeader="Mass Reduction Software: About"/>
         </div>
     )
 }

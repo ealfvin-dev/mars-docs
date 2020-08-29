@@ -4,10 +4,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import './App.css';
 
 import SideNav from './components/SideNav';
-import Home from './pages/Home';
-import About from './pages/About';
-import Documentation from './pages/Documentation';
-import ExampleFiles from './pages/ExampleFiles';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import Documentation from './pages/Documentation/Documentation';
+import ExampleFiles from './pages/ExampleFiles/ExampleFiles';
 
 const useStyles = makeStyles((theme) => ({
   root: {

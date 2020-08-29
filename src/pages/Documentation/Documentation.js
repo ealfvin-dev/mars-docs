@@ -1,11 +1,10 @@
 import React from 'react';
+import Header from '../../components/Header';
 
 function Documentation() {
     return (
         <div>
-            <h1>
-                Documentation
-            </h1>
+            <Header subHeader="Mass Reduction Software: Documentation" />
         </div>
     )
 }
