@@ -7,6 +7,7 @@ import SideNav from './components/SideNav';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Documentation from './pages/Documentation/Documentation';
+import ValidationDetails from './pages/ValidationDetails/ValidationDetails';
 import ExampleFiles from './pages/ExampleFiles/ExampleFiles';
 
 const useStyles = makeStyles((theme) => ({
@@ -31,6 +32,7 @@ function App() {
           <Route exact path="/home" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/documentation" component={Documentation} />
+          <Route exact path="/validationdetails" component={ValidationDetails} />
           <Route exact path="/examplefiles" component={ExampleFiles} />
         </div>
       </div>

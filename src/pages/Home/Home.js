@@ -11,14 +11,32 @@ function Home() {
             <Header subHeader="Mass Reduction Software"/>
             <div className="home">
                 <Grid container spacing={3}>
+                    <Grid item xs={6}>
+                        <p>
+                            Create and run advanced mass input files with error checking, line-by-line air buoyancy corrections and a graphical user interface.
+                        </p>
+                    </Grid>
+                    <Grid item xs={6}>
+
+                    </Grid>
                     <Grid item xs={12}>
                         <img src={require('./mars-ui.jpg')} width='90%' alt="Mars software user interface" />
                     </Grid>
                     <Divider />
                     <Grid item xs={5}>
-                        <h3>Catch Errors in Input Files Before They Run</h3>
+                        <h3>Input File Readability</h3>
                         <p>
-                            MARS will run checks on your input files before they run and identify any errors it finds.
+                            Line tags are automatically inserted as you create files for better readability and lower chance of data entry errors.
+                        </p>
+                    </Grid>
+                    <Grid item xs={7}>
+                        <img src={require('./inputTags.jpg')} width='100%' alt="Input file with caught error" />
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={5}>
+                        <h3>Identify Errors in Input Files</h3>
+                        <p>
+                            MARS will run a series of checks on your input files before they run and identify any errors it finds.
                         </p>
                     </Grid>
                     <Grid item xs={7}>
@@ -53,12 +71,13 @@ function Home() {
                     <Grid item xs={5}>
                         <h3>Keep Tack of Data That Has Been Entered in Each Series</h3>
                         <p>
-                            Buttons colors will indicate what data has been entered in each series and what is left to complete.
+                            Data entry is organized in sections. Buttons colors will indicate what data has been entered in each series and what is left to complete.
                         </p>
                     </Grid>
                     <Grid item xs={7}>
                         <img src={require('./Input-Buttons.jpg')} width='70%' alt="Input file with caught error" />
                     </Grid>
+                    <Divider />
                 </Grid>
             </div>
         </div>

@@ -41,10 +41,10 @@ function SideNav(props) {
     const drawer = (
         <div>
             <List>
-                {['Home', 'About', 'Documentation'].map((text, index) => (
+                {['Home', 'About', 'Documentation', 'Validation Details'].map((text, index) => (
                     <ListItem key={index}>
                         <Link 
-                        to={"/" + text.toLowerCase()}
+                        to={"/" + text.replace(/\s+/g, '').toLowerCase()}
                         onClick={handleNavClick}
                         style={{ textDecoration: 'none', color: 'white', fontSize: '12pt', margin: '2%', fontWeight: text === activeTab ? 'bold' : 'normal' }}
                         >
