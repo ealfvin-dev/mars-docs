@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/mars-docs/static/css/main.5a498daf.chunk.css",
+    "main.js": "/mars-docs/static/js/main.dec719c5.chunk.js",
+    "main.js.map": "/mars-docs/static/js/main.dec719c5.chunk.js.map",
+    "runtime-main.js": "/mars-docs/static/js/runtime-main.ebfba75f.js",
+    "runtime-main.js.map": "/mars-docs/static/js/runtime-main.ebfba75f.js.map",
+    "static/js/2.60c2f9ec.chunk.js": "/mars-docs/static/js/2.60c2f9ec.chunk.js",
+    "static/js/2.60c2f9ec.chunk.js.map": "/mars-docs/static/js/2.60c2f9ec.chunk.js.map",
+    "index.html": "/mars-docs/index.html",
+    "precache-manifest.9fedc260634af1b7cb8982c500451d7d.js": "/mars-docs/precache-manifest.9fedc260634af1b7cb8982c500451d7d.js",
+    "service-worker.js": "/mars-docs/service-worker.js",
+    "static/css/main.5a498daf.chunk.css.map": "/mars-docs/static/css/main.5a498daf.chunk.css.map",
+    "static/js/2.60c2f9ec.chunk.js.LICENSE.txt": "/mars-docs/static/js/2.60c2f9ec.chunk.js.LICENSE.txt",
+    "static/media/ABC.jpg": "/mars-docs/static/media/ABC.ba71a782.jpg",
+    "static/media/Gravity.jpg": "/mars-docs/static/media/Gravity.febf123b.jpg",
+    "static/media/Input-Buttons.jpg": "/mars-docs/static/media/Input-Buttons.8e730b15.jpg",
+    "static/media/error-handling.jpg": "/mars-docs/static/media/error-handling.11e661db.jpg",
+    "static/media/inputTags.jpg": "/mars-docs/static/media/inputTags.f2dfff48.jpg",
+    "static/media/mars-ui.jpg": "/mars-docs/static/media/mars-ui.0704d26e.jpg",
+    "static/media/split-series.jpg": "/mars-docs/static/media/split-series.4301950a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebfba75f.js",
+    "static/js/2.60c2f9ec.chunk.js",
+    "static/css/main.5a498daf.chunk.css",
+    "static/js/main.dec719c5.chunk.js"
+  ]
+}
