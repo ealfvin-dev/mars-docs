@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import './App.css';
 
@@ -24,7 +24,7 @@ function App() {
   const classes = useStyles();
 
   return (
-    <Router>
+    <HashRouter>
       <div className={`App ${classes.root}`}>
         <SideNav />
         <div className={classes.content}>
@@ -36,7 +36,7 @@ function App() {
           <Route exact path={process.env.PUBLIC_URL + "/examplefiles"} component={ExampleFiles} />
         </div>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
