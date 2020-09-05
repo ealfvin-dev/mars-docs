@@ -16,7 +16,8 @@ function ValidationDetails() {
                     accuracy of calculated results, acuracy of the output file and that results are not produced if bad data is input 
                     into the program. <br />  <br /> */}
                     This page provides details on validation that MARS has been through. All of the validation checks detailed 
-                    below are automatically re-run each time MARS is opened. These checks can also be run by clicking "Run Tests" 
+                    below are automatically re-run each time MARS is opened. This ensures that in the unlikely event of a file becoming 
+                    corrupted, an error will be displayed when the program is opened. These checks can also be run by clicking "Run Tests" 
                     from the menu, where you can see results of the validation tests including details if any tests failed. <br />
                     </p>
                 </Grid>
