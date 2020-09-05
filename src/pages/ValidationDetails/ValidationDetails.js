@@ -207,6 +207,58 @@ function ValidationDetails() {
                 <p className="testDesc">
                     Tests that the calculated T-value is correctly written to the output file.
                 </p>
+
+                <h2>Data Storage Checks</h2>
+
+                <h3>Test 48:</h3>
+                <p className="testDesc">
+                    Tests that a sensitivity weight can be saved to the database.
+                </p>
+
+                <h3>Test 49:</h3>
+                <p className="testDesc">
+                    Tests that all sensitivity weights can be retrieved from the database.
+                </p>
+
+                <h3>Test 50 - Test 53:</h3>
+                <p className="testDesc">
+                    Tests that sensitivity weight data retrieved from the database is the same as the data that was put in for a given entry 
+                    (name, mass, density, cce match going in and coming out).
+                </p>
+
+                <h3>Test 54:</h3>
+                <p className="testDesc">
+                    Tests that a sensitivity weight can be deleted from the database.
+                </p>
+
+                <h3>Test 55:</h3>
+                <p className="testDesc">
+                    Tests that standard deviations can be saved to the database.
+                </p>
+
+                <h3>Test 56:</h3>
+                <p className="testDesc">
+                    Tests that all standard deviations can be retrieved from the database.
+                </p>
+
+                <h3>Test 57 - Test 59:</h3>
+                <p className="testDesc">
+                    Tests that standard deviation data retrieved from the database is the same as the data that was put in for a given entry 
+                    (nominal, sigma-w, sigma-t match going in and coming out).
+                </p>
+
+                <h3>Test 60:</h3>
+                <p className="testDesc">
+                    Tests that a standard deviation can be deleted from the database.
+                </p>
+
+                <h2>Data Reduction Checks</h2>
+
+                <h3>Test 61 - 72:</h3>
+                <p className="testDesc">
+                    Tests that MARS air density calculations agree with NIST Mass Code air density calculations for different temperatures, pressures and humidities 
+                    with a tolerance of 1e-7 g/cm<sup>3</sup>.
+                </p>
             </div>
         </div>
     )
