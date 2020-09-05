@@ -28,17 +28,17 @@ function ValidationDetails() {
 
                 <h3>Test 1 - Test 6:</h3>
                 <p className="testDesc">
-                    Tests that the nessesary software is installed to run the program and that the correct versions of math libraries are installed.
+                    Tests that the nessesary software is installed to run the program and that the correct versions of dependencies are installed.
                 </p>
 
                 <h2>Runtime Error Handling</h2>
                 
-                <h3>Test 7:</h3>
+                <h3>Test 6:</h3>
                 <p className="testDesc">
                     Tests that a correctly-made input file can be run sucessfully.
                 </p>
 
-                <h3>Test 8:</h3>
+                <h3>Test 7:</h3>
                 <p className="testDesc">
                     Tests that an input file with a non-invertible design matrix produces an error when run.
                 </p>
@@ -58,92 +58,97 @@ function ValidationDetails() {
                     Tests that a multi-series input file with a series that lacks a restraint passed to it produces an error when run.
                 </p> */}
 
-                <h3>Test 9:</h3>
+                <h3>Test 8:</h3>
                 <p className="testDesc">
                     Tests that an input file using gravity corrections with a weight height of 0 cm produces an error when run.
                 </p>
 
                 <h2>Input File Error Identification</h2>
 
-                <h3>Test 10 - Test 11:</h3>
+                <h3>Test 9 - Test 10:</h3>
                 <p className="testDesc">
                     Tests that direct readings vs manual readings are sucessfully determined. This is used to set required lines in the input file.
                 </p>
 
-                <h3>Test 12:</h3>
+                <h3>Test 11:</h3>
                 <p className="testDesc">
                     Tests that a correctly-input report number (exists, no spaces) is identified as correct.
                 </p>
 
-                <h3>Test 13:</h3>
+                <h3>Test 12:</h3>
                 <p className="testDesc">
                     Tests that a correctly-structured input file (@SERIES before each series) is identified as correct.
                 </p>
 
-                <h3>Test 14:</h3>
+                <h3>Test 13:</h3>
                 <p className="testDesc">
                     Tests that an input file with recognized entry tags is identified as correct.
                 </p>
 
-                <h3>Test 15:</h3>
+                <h3>Test 14:</h3>
                 <p className="testDesc">
                     Tests that an input file with all required entry tags is identified as correct.
                 </p>
 
-                <h3>Test 16:</h3>
+                <h3>Test 15:</h3>
                 <p className="testDesc">
                     Tests that an input file without repeated entry tags is identified as correct.
                 </p>
 
-                <h3>Test 17:</h3>
+                <h3>Test 16:</h3>
                 <p className="testDesc">
                     Tests that a correctly-made input file passes the input checks (checking all individual entries for correct type and formatting).
                 </p>
 
-                <h3>Test 18:</h3>
+                <h3>Test 17:</h3>
                 <p className="testDesc">
                     Tests that a correctly-made input file passes the required checks (checking structure consistency,  
                     restraints passed down, number of balance observations and environmentals match the design).
                 </p>
 
-                <h3>Test 19:</h3>
+                <h3>Test 18:</h3>
                 <p className="testDesc">
                     Tests that a correctly-made input file passes the secondary checks (checking environmentals are in SOP 28 limits).
                 </p>
 
-                <h3>Test 20:</h3>
+                <h3>Test 19:</h3>
                 <p className="testDesc">
                     Tests that an incorrectly-input report number (DNE, or contains spaces) is identified as incorrect.
                 </p>
 
-                <h3>Test 21:</h3>
+                <h3>Test 20:</h3>
                 <p className="testDesc">
                     Tests that a incorrectly-structured input file is identified as incorrect.
                 </p>
 
-                <h3>Test 22:</h3>
+                <h3>Test 21:</h3>
                 <p className="testDesc">
                     Tests that an input file with an unrecognized entry tag is identified as incorrect.
                 </p>
 
-                <h3>Test 23:</h3>
+                <h3>Test 22:</h3>
                 <p className="testDesc">
                     Tests that an input file with a missing entry tag is identified as incorrect.
                 </p>
 
-                <h3>Test 24:</h3>
+                <h3>Test 23:</h3>
                 <p className="testDesc">
                     Tests that an input file with a repeated entry tag is identified as incorrect.
                 </p>
 
-                <h3>Test 25:</h3>
+                <h3>Test 24:</h3>
                 <p className="testDesc">
                     Tests that an input file with entry tags but missing input is identified as incorrect.
                 </p>
 
-                <h3>Test 26:</h3>
+                <h3>Test 25:</h3>
                 <p className="testDesc">
                     Tests that an input file with non-numerical input is identified as incorrect.
+                </p>
+
+                <h3>Test 26:</h3>
+                <p className="testDesc">
+                    Tests that an input file with the check standard and restraint in the same position is identified as incorrect.
                 </p>
 
                 <h2>Output File Checks</h2>
@@ -151,6 +156,56 @@ function ValidationDetails() {
                 <h3>Test 27:</h3>
                 <p className="testDesc">
                     Tests that an output file can be sucessfully written out.
+                </p>
+
+                <h3>Test 28 - Test 33:</h3>
+                <p className="testDesc">
+                    Tests that calculated masses are correctly written to the output file.
+                </p>
+
+                <h3>Test 34 - Test 39:</h3>
+                <p className="testDesc">
+                    Tests that weight densities are correctly written to the output file.
+                </p>
+
+                <h3>Test 40:</h3>
+                <p className="testDesc">
+                    Tests that the calculated within-process standard deviation is correctly written to the output file.
+                </p>
+
+                <h3>Test 41:</h3>
+                <p className="testDesc">
+                    Tests that the accepted within-process standard deviation is correctly written to the output file.
+                </p>
+
+                <h3>Test 42:</h3>
+                <p className="testDesc">
+                    Tests that the calculated F-critical value is correctly written to the output file.
+                </p>
+
+                <h3>Test 43:</h3>
+                <p className="testDesc">
+                    Tests that the calculated F-value is correctly written to the output file.
+                </p>
+
+                <h3>Test 44:</h3>
+                <p className="testDesc">
+                    Tests that the calculated check standard correction is correctly written to the output file.
+                </p>
+
+                <h3>Test 45:</h3>
+                <p className="testDesc">
+                    Tests that the accepted check standard correction is correctly written to the output file.
+                </p>
+
+                <h3>Test 46:</h3>
+                <p className="testDesc">
+                    Tests that the calculated T-critical value is correctly written to the output file.
+                </p>
+
+                <h3>Test 47:</h3>
+                <p className="testDesc">
+                    Tests that the calculated T-value is correctly written to the output file.
                 </p>
             </div>
         </div>
