@@ -24,16 +24,16 @@ function App() {
   const classes = useStyles();
 
   return (
-    <Router basename="/mars-docs">
+    <Router>
       <div className={`App ${classes.root}`}>
         <SideNav />
         <div className={classes.content}>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/documentation" component={Documentation} />
-          <Route exact path="/validationdetails" component={ValidationDetails} />
-          <Route exact path="/examplefiles" component={ExampleFiles} />
+          <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+          <Route exact path={process.env.PUBLIC_URL + "/home"} component={Home} />
+          <Route exact path={process.env.PUBLIC_URL + "/about"} component={About} />
+          <Route exact path={process.env.PUBLIC_URL + "/documentation"} component={Documentation} />
+          <Route exact path={process.env.PUBLIC_URL + "/validationdetails"} component={ValidationDetails} />
+          <Route exact path={process.env.PUBLIC_URL + "/examplefiles"} component={ExampleFiles} />
         </div>
       </div>
     </Router>
