@@ -44,7 +44,7 @@ function SideNav(props) {
                 {['Home', 'About', 'Documentation', 'Validation Details'].map((text, index) => (
                     <ListItem key={index}>
                         <Link 
-                        to={process.env.PUBLIC_URL + "/" + text.replace(/\s+/g, '').toLowerCase()}
+                        to={"/" + text.replace(/\s+/g, '').toLowerCase()}
                         onClick={handleNavClick}
                         style={{ textDecoration: 'none', color: 'white', fontSize: '12pt', margin: '2%', fontWeight: text === activeTab ? 'bold' : 'normal' }}
                         >
@@ -58,7 +58,7 @@ function SideNav(props) {
                 {['Example Files'].map((text, index) => (
                 <ListItem key={index}>
                     <Link 
-                    to={process.env.PUBLIC_URL + "/examplefiles"}
+                    to={"/examplefiles"}
                     onClick={handleNavClick}
                     style={{ textDecoration: 'none', color: 'white', fontSize: '12pt', margin: '2%', fontWeight: text === activeTab ? 'bold' : 'normal' }}
                     >
