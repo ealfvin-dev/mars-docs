@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12678d4841681147936d740611766af7",
+    "revision": "ec78a49d787b18adb0eae628c982892b",
     "url": "/mars-docs/index.html"
   },
   {
-    "revision": "299d7fc489b4caa54d15",
+    "revision": "c230fe6e6386fc2a2c06",
     "url": "/mars-docs/static/css/main.5a498daf.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mars-docs/static/js/2.60c2f9ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "299d7fc489b4caa54d15",
-    "url": "/mars-docs/static/js/main.dec719c5.chunk.js"
+    "revision": "c230fe6e6386fc2a2c06",
+    "url": "/mars-docs/static/js/main.00306f7e.chunk.js"
   },
   {
     "revision": "034540a4187b1de16068",
