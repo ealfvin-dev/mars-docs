@@ -24,7 +24,7 @@ function App() {
   const classes = useStyles();
 
   return (
-    <Router>
+    <Router basename="/mars-docs">
       <div className={`App ${classes.root}`}>
         <SideNav />
         <div className={classes.content}>
