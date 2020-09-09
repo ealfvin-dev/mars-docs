@@ -69,7 +69,7 @@ function Home() {
                     </Grid>
                     <Divider />
                     <Grid item xs={5}>
-                        <h3>Keep Tack of Data That Has Been Entered in Each Series</h3>
+                        <h3>Keep Tack of What Data Has Been Entered in Each Series</h3>
                         <p>
                             Data entry is organized in sections. Buttons colors will indicate what data has been entered in each series and what is left to complete.
                         </p>
