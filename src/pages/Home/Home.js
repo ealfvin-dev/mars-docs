@@ -1,12 +1,13 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Header from '../../components/Header';
 import Divider from '../../components/Divider';
 
 import './Home.css'
 
 function Home() {
-    console.log(window.innerWidth)
+    const largeScreen = useMediaQuery('(min-width:1500px)');
     return (
         <div>
             <Header subHeader="Mass Reduction Software"/>
@@ -21,7 +22,10 @@ function Home() {
 
                     </Grid>
                     <Grid item xs={12}>
-                        <img src={require('./mars-ui.jpg')} width={window.innerWidth < 1600 ? '100%' : '1200px'} alt="Mars software user interface" />
+                        {largeScreen 
+                        ? <img src={require('./mars-ui.jpg')} width='1219px' alt="Mars software user interface" />
+                        : <img src={require('./mars-ui-small.jpg')} width='848px' alt="Mars software user interface" />
+                        }
                     </Grid>
                     <Divider />
                     <Grid item xs={5}>
@@ -54,28 +58,28 @@ function Home() {
                         
                     </Grid>
                     <Grid item xs={4}>
-                        <img src={require('./Gravity.jpg')} width={window.innerWidth < 1200 ? '100%' : '370px'} alt="Gravity correction input example" />
+                        <img src={require('./Gravity.jpg')} width={window.innerWidth < 1200 ? '100%' : '350px'} alt="Gravity correction input example" />
                     </Grid>
                     <Grid item xs={8}>
-                        <img src={require('./ABC.jpg')} width={window.innerWidth < 1200 ? '100%' : '673px'} alt="Air buoyancy correction input example" />
+                        <img src={require('./ABC.jpg')} width={window.innerWidth < 1200 ? '100%' : '636px'} alt="Air buoyancy correction input example" />
                     </Grid>
                     <Divider />
                     <Grid item xs={2}>
-                        <img src={require('./split-series.jpg')} width='180px' alt="Split series menu view" />
+                        <img src={require('./split-series.jpg')} width='175px' alt="Split series menu view" />
                     </Grid>
                     <Grid item xs={5}>
                         <h3>View One Series at a Time</h3>
                         <p>
-                            Navigate between connected series in a calibration and view one series at a time.
+                            Navigate between connected calibrations in an input file and view input data for one series at a time.
                         </p>
                     </Grid>
                     <Grid item xs={5}>
                     </Grid>
                     <Divider />
                     <Grid item xs={5}>
-                        <h3>Keep Tack of What Data Has Been Entered in Each Series</h3>
+                        <h3>Keep Track of What Data Has Been Entered in Each Series</h3>
                         <p>
-                            Data entry is organized in sections. Buttons colors will indicate what data has been entered in each series and what is left to complete.
+                            Data entry is organized by series. Buttons colors will indicate what data has been entered in each series and what is left to complete.
                         </p>
                     </Grid>
                     <Grid item xs={7}>
