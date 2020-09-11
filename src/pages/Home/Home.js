@@ -1,12 +1,13 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Header from '../../components/Header';
 import Divider from '../../components/Divider';
 
 import './Home.css'
 
 function Home() {
-    console.log(window.innerWidth)
+    const largeScreen = useMediaQuery('(min-width:1500px)');
     return (
         <div>
             <Header subHeader="Mass Reduction Software"/>
@@ -21,7 +22,10 @@ function Home() {
 
                     </Grid>
                     <Grid item xs={12}>
-                        <img src={require('./mars-ui.jpg')} width='1219px' alt="Mars software user interface" />
+                        {largeScreen 
+                        ? <img src={require('./mars-ui.jpg')} width='1219px' alt="Mars software user interface" />
+                        : <img src={require('./mars-ui-small.jpg')} width='848px' alt="Mars software user interface" />
+                        }
                     </Grid>
                     <Divider />
                     <Grid item xs={5}>
