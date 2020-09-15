@@ -7,7 +7,7 @@ import Divider from '../../components/Divider';
 import './Home.css'
 
 function Home() {
-    const largeScreen = useMediaQuery('(min-width:1500px)');
+    const largeScreen = useMediaQuery('(min-width:1600px)');
     return (
         <div>
             <Header subHeader="Mass Reduction Software"/>
@@ -23,8 +23,8 @@ function Home() {
                     </Grid>
                     <Grid item xs={12}>
                         {largeScreen 
-                        ? <img src={require('./mars-ui.jpg')} width='1219px' alt="Mars software user interface" />
-                        : <img src={require('./mars-ui-small.jpg')} width='848px' alt="Mars software user interface" />
+                        ? <img src={require('./mars-ui-notopbar.jpg')} width='1268px' alt="Mars software user interface" />
+                        : <img src={require('./mars-ui-small-notopbar.jpg')} width='964px' alt="Mars software user interface" />
                         }
                     </Grid>
                     <Divider />

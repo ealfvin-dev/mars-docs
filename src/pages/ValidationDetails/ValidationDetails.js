@@ -16,9 +16,9 @@ function ValidationDetails() {
                     accuracy of calculated results, acuracy of the output file and that results are not produced if bad data is input 
                     into the program. <br />  <br /> */}
                     This page provides details on validation that MARS has been through. All of the validation checks detailed 
-                    below are automatically re-run each time MARS is opened. This ensures that in the unlikely event of a file becoming 
-                    corrupted, an error will be displayed when the program is opened. These checks can also be run by clicking "Run Tests" 
-                    from the menu, where you can see results of the validation tests including details if any tests failed. <br />
+                    below are automatically re-run in each time MARS is opened. This ensures that in the unlikely event of a file becoming 
+                    corrupted or computer malfunction, an error will be displayed when the program is opened. These checks can also be run by clicking "Run Tests" 
+                    from the menu, where you can see results of the validation tests. <br />
                     </p>
                 </Grid>
                 <Grid item xs={4}>
@@ -273,97 +273,169 @@ function ValidationDetails() {
 
                 <h3 className="testHeader">Test 79 - Test 82:</h3>
                 <p className="testDesc">
-                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in an automated 4-1 at 1 kg with constant air density. 
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in an automated 4-1 calibration at 1 kg with constant air density. 
                     The agreement tolerance is 1e-7 g.
                 </p>
 
                 <h3 className="testHeader">Test 83 - Test 84:</h3>
                 <p className="testDesc">
-                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in an automated 4-1 at 1 kg with constant air density. 
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in an automated 4-1 calibration at 1 kg with constant air density. 
                     The agreement tolerance is 0.02.
                 </p>
 
                 <h3 className="testHeader">Test 85 - Test 89:</h3>
                 <p className="testDesc">
-                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 5-1 at 1 kg with constant air density. 
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 5-1 calibration at 1 kg with constant air density. 
                     The agreement tolerance is 1e-7 g.
                 </p>
 
                 <h3 className="testHeader">Test 90 - Test 91:</h3>
                 <p className="testDesc">
-                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 5-1 at 1 kg with constant air density. 
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 5-1 calibration at 1 kg with constant air density. 
                     The agreement tolerance is 0.02.
                 </p>
 
                 <h3 className="testHeader">Test 92 - Test 97:</h3>
                 <p className="testDesc">
-                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 532111 at 500 g with constant air density. 
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 532111 calibration at 500 g with constant air density. 
                     The agreement tolerance is 1e-7 g.
                 </p>
 
                 <h3 className="testHeader">Test 98 - Test 99:</h3>
                 <p className="testDesc">
-                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 532111 at 500 g with constant air density. 
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 532111 calibration at 500 g with constant air density. 
                     The agreement tolerance is 0.02.
                 </p>
 
                 <h3 className="testHeader">Test 100 - Test 105:</h3>
                 <p className="testDesc">
-                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 522111 at 50 g with constant air density. 
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 522111 calibration at 50 g with constant air density. 
                     The agreement tolerance is 1e-7 g.
                 </p>
 
                 <h3 className="testHeader">Test 106 - Test 107:</h3>
                 <p className="testDesc">
-                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 522111 at 50 g with constant air density. 
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 522111 calibration at 50 g with constant air density. 
                     The agreement tolerance is 0.02.
                 </p>
 
                 <h3 className="testHeader">Test 108 - Test 113:</h3>
                 <p className="testDesc">
-                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 522111 at 5 g with constant air density. 
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 522111 calibration at 5 g with constant air density. 
                     The agreement tolerance is 1e-7 g.
                 </p>
 
                 <h3 className="testHeader">Test 114 - Test 115:</h3>
                 <p className="testDesc">
-                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 522111 at 5 g with constant air density. 
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 522111 calibration at 5 g with constant air density. 
                     The agreement tolerance is 0.02.
                 </p>
 
                 <h3 className="testHeader">Test 116 - Test 121:</h3>
                 <p className="testDesc">
-                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 532111 at 500 mg with constant air density. 
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 532111 calibration at 500 mg with constant air density. 
                     The agreement tolerance is 1e-7 g.
                 </p>
 
                 <h3 className="testHeader">Test 122 - Test 123:</h3>
                 <p className="testDesc">
-                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 532111 at 500 mg with constant air density. 
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 532111 calibration at 500 mg with constant air density. 
                     The agreement tolerance is 0.02.
                 </p>
 
                 <h3 className="testHeader">Test 123 - Test 129:</h3>
                 <p className="testDesc">
-                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 532111 at 50 mg with constant air density. 
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 532111 calibration at 50 mg with constant air density. 
                     The agreement tolerance is 1e-7 g.
                 </p>
 
                 <h3 className="testHeader">Test 130 - Test 131:</h3>
                 <p className="testDesc">
-                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 532111 at 50 mg with constant air density. 
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 532111 calibration at 50 mg with constant air density. 
                     The agreement tolerance is 0.02.
                 </p>
 
                 <h3 className="testHeader">Test 132 - Test 137:</h3>
                 <p className="testDesc">
-                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 532111 at 5 mg with constant air density. 
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 532111 calibration at 5 mg with constant air density. 
                     The agreement tolerance is 1e-7 g.
                 </p>
 
                 <h3 className="testHeader">Test 138 - Test 139:</h3>
                 <p className="testDesc">
-                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 532111 at 5 mg with constant air density. 
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 532111 calibration at 5 mg with constant air density. 
+                    The agreement tolerance is 0.02.
+                </p>
+
+                <h3 className="testHeader">Test 140 - Test 142:</h3>
+                <p className="testDesc">
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 3-1 calibration at 3000 lb with constant air density. 
+                    The agreement tolerance is 1e-4 g.
+                </p>
+
+                <h3 className="testHeader">Test 143 - Test 144:</h3>
+                <p className="testDesc">
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 3-1 calibration at 3000 lb with constant air density. 
+                    The agreement tolerance is 0.02.
+                </p>
+
+                <h3 className="testHeader">Test 145 - Test 148:</h3>
+                <p className="testDesc">
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 4-1 calibration at 1 lb with constant air density. 
+                    The agreement tolerance is 1e-7 g.
+                </p>
+
+                <h3 className="testHeader">Test 149 - Test 150:</h3>
+                <p className="testDesc">
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 4-1 calibration at 1 lb with constant air density. 
+                    The agreement tolerance is 0.02.
+                </p>
+
+                <h3 className="testHeader">Test 151 - Test 156:</h3>
+                <p className="testDesc">
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 532111 calibration at 0.5 lb with constant air density. 
+                    The agreement tolerance is 1e-7 g.
+                </p>
+
+                <h3 className="testHeader">Test 157 - Test 158:</h3>
+                <p className="testDesc">
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 532111 calibration at 0.5 lb with constant air density. 
+                    The agreement tolerance is 0.02.
+                </p>
+
+                <h3 className="testHeader">Test 159 - Test 164:</h3>
+                <p className="testDesc">
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 532111 calibration at 0.05 lb with constant air density. 
+                    The agreement tolerance is 1e-7 g.
+                </p>
+
+                <h3 className="testHeader">Test 165 - Test 166:</h3>
+                <p className="testDesc">
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 532111 calibration at 0.05 lb with constant air density. 
+                    The agreement tolerance is 0.02.
+                </p>
+
+                <h3 className="testHeader">Test 167 - Test 172:</h3>
+                <p className="testDesc">
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual 532111 calibration at 0.005 lb with constant air density. 
+                    The agreement tolerance is 1e-7 g.
+                </p>
+
+                <h3 className="testHeader">Test 173 - Test 174:</h3>
+                <p className="testDesc">
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual 532111 calibration at 0.005 lb with constant air density. 
+                    The agreement tolerance is 0.02.
+                </p>
+
+                <h3 className="testHeader">Test 175 - Test 178:</h3>
+                <p className="testDesc">
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in an automated 4-1 at 1 kg with constant air density and with a balance sensitivity factor not equal to 1. 
+                    The agreement tolerance is 1e-7 g.
+                </p>
+
+                <h3 className="testHeader">Test 179 - Test 180:</h3>
+                <p className="testDesc">
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in an automated 4-1 at 1 kg with constant air density and with a balance sensitivity factor not equal to 1. 
                     The agreement tolerance is 0.02.
                 </p>
             </div>
