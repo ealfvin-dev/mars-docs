@@ -23,8 +23,8 @@ function Home() {
                     </Grid>
                     <Grid item xs={12}>
                         {largeScreen 
-                        ? <img src={require('./mars-ui-notopbar.jpg')} width='1268px' alt="Mars software user interface" />
-                        : <img src={require('./mars-ui-small-notopbar.jpg')} width='964px' alt="Mars software user interface" />
+                        ? <img src={require('./mars-ui.jpg')} width='1268px' alt="Mars software user interface" />
+                        : <img src={require('./mars-ui-small.jpg')} width='964px' alt="Mars software user interface" />
                         }
                     </Grid>
                     <Divider />
@@ -35,7 +35,10 @@ function Home() {
                         </p>
                     </Grid>
                     <Grid item xs={7}>
-                        <img src={require('./inputTags.jpg')} width={window.innerWidth < 1600 ? '100%' : '720px'} alt="Input file with caught error" />
+                        {largeScreen
+                        ? <img src={require('./inputTags.jpg')} width='735px' alt="Input file with caught error" />
+                        : <img src={require('./inputTags-small.jpg')} width='526' alt="Input file with caught error" />
+                        }
                     </Grid>
                     <Divider />
                     <Grid item xs={5}>
@@ -45,7 +48,10 @@ function Home() {
                         </p>
                     </Grid>
                     <Grid item xs={7}>
-                        <img src={require('./error-handling.jpg')} width={window.innerWidth < 1600 ? '100%' : '720px'} alt="Input file with caught error" />
+                        {largeScreen
+                        ? <img src={require('./error-handling.jpg')} width='735px' alt="Input file with caught error" />
+                        : <img src={require('./error-handling-small.jpg')} width='530px' alt="Input file with caught error" />
+                        }
                     </Grid>
                     <Divider />
                     <Grid item xs={4}>
@@ -58,14 +64,14 @@ function Home() {
                         
                     </Grid>
                     <Grid item xs={4}>
-                        <img src={require('./Gravity.jpg')} width={window.innerWidth < 1200 ? '100%' : '350px'} alt="Gravity correction input example" />
+                        <img src={require('./Gravity.jpg')} width='325' alt="Gravity correction input example" />
                     </Grid>
                     <Grid item xs={8}>
-                        <img src={require('./ABC.jpg')} width={window.innerWidth < 1200 ? '100%' : '636px'} alt="Air buoyancy correction input example" />
+                        <img src={require('./ABC.jpg')} width='594' alt="Air buoyancy correction input example" />
                     </Grid>
                     <Divider />
                     <Grid item xs={2}>
-                        <img src={require('./split-series.jpg')} width='175px' alt="Split series menu view" />
+                        <img src={require('./split-series.jpg')} width='154px' alt="Split series menu view" />
                     </Grid>
                     <Grid item xs={5}>
                         <h3>View One Series at a Time</h3>
@@ -83,7 +89,7 @@ function Home() {
                         </p>
                     </Grid>
                     <Grid item xs={7}>
-                        <img src={require('./Input-Buttons.jpg')} width={window.innerWidth < 1200 ? '100%' : '500px'} alt="Input file with caught error" />
+                        <img src={require('./Input-Buttons.jpg')} width='400' alt="Input file with caught error" />
                     </Grid>
                     <Divider />
                 </Grid>
