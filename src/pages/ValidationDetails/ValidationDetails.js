@@ -15,10 +15,10 @@ function ValidationDetails() {
                     {/* The validation includes checks for 
                     accuracy of calculated results, acuracy of the output file and that results are not produced if bad data is input 
                     into the program. <br />  <br /> */}
-                    This page provides details on validation that MARS has been through. All of the validation checks detailed 
-                    below are automatically re-run in each time MARS is opened. This ensures that in the unlikely event of a file becoming 
-                    corrupted or computer malfunction, an error will be displayed when the program is opened. These checks can also be run by clicking "Run Tests" 
-                    from the menu, where you can see results of the validation tests. <br />
+                    This page provides details on validation that MARS has been through. All of the validation tests detailed 
+                    below are automatically re-run each time MARS is opened. This ensures that in the unlikely event of a file becoming 
+                    corrupted or computer malfunction, an error will be displayed when the program is opened. These tests can also be run by clicking "Run Tests" 
+                    in the menu. <br />
                     </p>
                 </Grid>
                 <Grid item xs={4}>
@@ -152,7 +152,7 @@ function ValidationDetails() {
                     Tests that an input file with the check standard and restraint in the same position is identified as incorrect.
                 </p>
 
-                <h2>Output File Checks</h2>
+                <h2>Output File Generation</h2>
 
                 <h3 className="testHeader">Test 27:</h3>
                 <p className="testDesc">
@@ -263,7 +263,7 @@ function ValidationDetails() {
                     Tests that a standard deviation can be deleted from the database.
                 </p>
 
-                <h2>Data Reduction Checks</h2>
+                <h2>Data Reduction</h2>
 
                 <h3 className="testHeader">Test 67 - 78:</h3>
                 <p className="testDesc">
