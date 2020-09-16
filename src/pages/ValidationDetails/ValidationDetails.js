@@ -429,13 +429,25 @@ function ValidationDetails() {
 
                 <h3 className="testHeader">Test 175 - Test 178:</h3>
                 <p className="testDesc">
-                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in an automated 4-1 at 1 kg with constant air density and with a balance sensitivity factor not equal to 1. 
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in an automated 4-1 calibration at 1 kg with constant air density and with a balance sensitivity factor not equal to 1. 
                     The agreement tolerance is 1e-7 g.
                 </p>
 
                 <h3 className="testHeader">Test 179 - Test 180:</h3>
                 <p className="testDesc">
-                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in an automated 4-1 at 1 kg with constant air density and with a balance sensitivity factor not equal to 1. 
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in an automated 4-1 calibration at 1 kg with constant air density and with a balance sensitivity factor not equal to 1. 
+                    The agreement tolerance is 0.02.
+                </p>
+
+                <h3 className="testHeader">Test 181 - Test 185:</h3>
+                <p className="testDesc">
+                    Tests that MARS mass calculations agree with NIST Mass Code mass calculations in a manual ascending 52211 calibration at 1 kg with constant air density. 
+                    The agreement tolerance is 1e-7 g.
+                </p>
+
+                <h3 className="testHeader">Test 186 - Test 187:</h3>
+                <p className="testDesc">
+                    Tests that MARS F and T values agree with NIST Mass Code mass calculated values in a manual ascending 52211 calibration at 1 kg with constant air density. 
                     The agreement tolerance is 0.02.
                 </p>
             </div>
