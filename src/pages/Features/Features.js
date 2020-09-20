@@ -55,7 +55,7 @@ function Features() {
                     </Grid>
                     <Divider />
                     <Grid item xs={4}>
-                        <h3>Perform for line-by-line air buoyancy corrections and center of mass gravitational corrections</h3>
+                        <h3>Perform line-by-line air buoyancy corrections and center of mass gravitational corrections</h3>
                         <p>
                             
                         </p>

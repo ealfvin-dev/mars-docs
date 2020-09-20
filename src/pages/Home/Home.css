@@ -1,0 +1,13 @@
+.logoTitle {
+    font-size: 20pt;
+    font-weight: 500;
+    margin: 1%;
+    margin-top: -0.5%;
+    color: rgba(39.525, 55.335, 74.46, 1);
+}
+
+.homepageText {
+    font-size: 15pt;
+    font-weight: 500;
+    margin: 1%;
+}
