@@ -10,7 +10,7 @@ function Features() {
     const largeScreen = useMediaQuery('(min-width:1600px)');
     return (
         <div>
-            <Header subHeader="Mass Reduction Software: Features"/>
+            <Header />
             <div className="features">
                 <Grid container spacing={3}>
                     <Grid item xs={6}>

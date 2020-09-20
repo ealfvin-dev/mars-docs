@@ -4,7 +4,7 @@ import Header from '../../components/Header';
 function Documentation() {
     return (
         <div>
-            <Header subHeader="Mass Reduction Software: Documentation" />
+            <Header />
         </div>
     )
 }

@@ -7,7 +7,7 @@ import './ValidationDetails.css'
 function ValidationDetails() {
     return (
         <div>
-            <Header subHeader="Mass Reduction Software: Validation Details"/>
+            <Header />
             <div className="validationDetails">
                 <Grid container spacing={3}>
                     <Grid item xs={8}>

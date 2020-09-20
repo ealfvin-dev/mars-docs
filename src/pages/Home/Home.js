@@ -1,6 +1,5 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import Header from '../../components/Header';
 
 import './Home.css'
 
@@ -21,7 +20,7 @@ function Home() {
                 <Grid item xs={4}>
                 </Grid>
                 <Grid item xs={4}>
-                    <h3 className='homepageText' style={{textAlign: 'center'}}>Powerful, user-friendly precision mass reduction software developed by the Technical Manager at the State of Minnesota Metrology Laboratory.</h3>
+                    <h3 className='homepageText' style={{textAlign: 'center'}}>Allows your lab to produce more accurate precision mass measurements that are less prone to data-entry errors.</h3>
                 </Grid>
                 <Grid item xs={4}>
                 </Grid>
