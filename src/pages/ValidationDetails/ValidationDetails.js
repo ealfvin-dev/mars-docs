@@ -12,10 +12,12 @@ function ValidationDetails() {
                 <Grid container spacing={3}>
                     <Grid item xs={8}>
                         <p>
-                        This page provides details on validation that MARS has been through. All of the validation tests detailed 
+                        This page provides details on validation for MARS. All of the validation tests detailed 
                         below have been checked manually and are also automatically re-run every time MARS is opened. This ensures that in the unlikely event of a file becoming 
                         corrupted or computer malfunction, an error will be displayed when the program is opened. These tests can also be run by clicking "Run Tests" 
-                        in the menu. <br />
+                        in the menu. <br /> <br />
+                        Design solutions are calculated using the matrix least squares regression. <br />
+                        Air densities are calculated using the CIPM 2007 air density equation (Picard et al.).
                         </p>
                     </Grid>
                     <Grid item xs={4}>

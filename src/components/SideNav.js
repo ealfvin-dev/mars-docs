@@ -28,7 +28,7 @@ function SideNav(props) {
     const classes = useStyles();
     const theme = useTheme();
     const [mobileOpen, setMobileOpen] = React.useState(false);
-    const [activeTab, setActiveTab] = React.useState("Home");
+    const [activeTab, setActiveTab] = React.useState("");
 
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
