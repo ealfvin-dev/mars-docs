@@ -41,7 +41,7 @@ function SideNav(props) {
     const drawer = (
         <div>
             <List>
-                {['Home', 'About', 'Documentation', 'Validation Details'].map((text, index) => (
+                {['Home', 'Features', 'Documentation', 'Validation Details', 'About'].map((text, index) => (
                     <ListItem key={index}>
                         <Link 
                         to={"/" + text.replace(/\s+/g, '').toLowerCase()}
