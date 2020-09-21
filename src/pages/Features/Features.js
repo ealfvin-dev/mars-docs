@@ -31,7 +31,7 @@ function Features() {
                     <Grid item xs={5}>
                         <h3>Input File Readability</h3>
                         <p>
-                            Line tags are automatically inserted as you create files for better readability and lower chance of data entry errors.
+                            Line tags are automatically inserted as you create files for better readability and lower risk of data entry errors.
                         </p>
                     </Grid>
                     <Grid item xs={7}>
