@@ -20,7 +20,7 @@ function Home() {
                 <Grid item xs={4}>
                 </Grid>
                 <Grid item xs={4}>
-                    <h3 className='homepageText' style={{textAlign: 'center'}}>Allows your lab to produce more accurate precision mass measurements that are less prone to data-entry errors.</h3>
+                    <h3 className='homepageText' style={{textAlign: 'center'}}>Allows your lab to produce more accurate precision mass results that are less prone to data-entry errors.</h3>
                 </Grid>
                 <Grid item xs={4}>
                 </Grid>
