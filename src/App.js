@@ -9,6 +9,7 @@ import About from './pages/About/About';
 import Documentation from './pages/Documentation/Documentation';
 import ValidationDetails from './pages/ValidationDetails/ValidationDetails';
 import ExampleFiles from './pages/ExampleFiles/ExampleFiles';
+import ViewFile from './pages/ExampleFiles/ViewFile'
 import Features from './pages/Features/Features';
 
 const useStyles = makeStyles((theme) => ({
@@ -36,6 +37,7 @@ function App() {
           <Route exact path={"/documentation"} component={Documentation} />
           <Route exact path={"/validationdetails"} component={ValidationDetails} />
           <Route exact path={"/examplefiles"} component={ExampleFiles} />
+          <Route path={"/examplefile"} component={ViewFile} />
         </div>
       </div>
     </HashRouter>
