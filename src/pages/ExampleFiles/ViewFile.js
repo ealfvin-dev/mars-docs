@@ -18,7 +18,7 @@ function ViewFile() {
                             <div>
                                 {fileName + '.txt'}
                                 <br/> <br/>
-                                <Paper elevation={0} className='filePaper'>
+                                <Paper elevation={0} className={fileName.includes("config") ? 'inputPaper' : 'outputPaper'}>
                                     <div className='fileText'>
                                         {fileTexts[fileName]}
                                     </div>
