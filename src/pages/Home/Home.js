@@ -5,17 +5,14 @@ import './Home.css'
 
 function Home() {
     return (
-        <div>
+        <div className='homeMain'>
             {/* <Header subHeader="Mass Reduction Software"/> */}
              <Grid container spacing={3}>
-                 <Grid item xs={12}>
-                    <p><br/></p>
-                 </Grid>
                  <Grid item xs={12} style={{justifyContent: 'center'}}>
                     <img src={require('../../components/logo-out.png')} height='200px' alt='Mars Logo' style={{display: 'block', margin: 'auto'}} />
                  </Grid>
                  <Grid item xs={12}>
-                    <h2 className='logoTitle' style={{textAlign: 'center'}}>Mass Reduction Software</h2>
+                    <h2 className='logoTitle' style={{textAlign: 'center'}}>MARS - Mass Reduction Software</h2>
                 </Grid>
                 <Grid item xs={4}>
                 </Grid>

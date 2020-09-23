@@ -1,7 +1,6 @@
 import React from 'react';
 import { HashRouter, Route } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
-import './App.css';
 
 import SideNav from './components/SideNav';
 import Home from './pages/Home/Home';
@@ -12,13 +11,13 @@ import ExampleFiles from './pages/ExampleFiles/ExampleFiles';
 import ViewFile from './pages/ExampleFiles/ViewFile'
 import Features from './pages/Features/Features';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {
       display: 'flex',
   },
   content: {
     flexGrow: 1,
-    padding: theme.spacing(3),
+    padding: '24px',
   }
 }));
 
