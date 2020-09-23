@@ -11,3 +11,12 @@
     font-weight: 500;
     margin: 1%;
 }
+
+.homeMain {
+    background-image: url('./mars-planet-out.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 20vh;
+    margin: -24px;
+}

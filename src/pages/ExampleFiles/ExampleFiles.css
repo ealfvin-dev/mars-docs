@@ -3,3 +3,24 @@
     margin-right: 75px;
     margin-top: 30px;
 }
+
+.fileText {
+    white-Space: pre-wrap;
+    line-height: normal;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 9pt;
+}
+
+.inputPaper {
+    padding: 15px;
+    padding-right: 300px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.outputPaper {
+    padding: 15px;
+    padding-right: 200px;
+    border-style: solid;
+    border-width: 1px;
+}

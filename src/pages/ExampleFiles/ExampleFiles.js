@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -45,7 +46,9 @@ function ExampleFiles() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">View</Button>
+                                <Link to='/examplefile/Example-4-1-config' style={{textDecoration: 'none'}}>
+                                    <Button size="small">View</Button>
+                                </Link>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -65,7 +68,9 @@ function ExampleFiles() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">View</Button>
+                                <Link to='/examplefile/Example-4-1-out' style={{textDecoration: 'none'}}>
+                                    <Button size="small">View</Button>
+                                </Link>
                             </CardActions>
                         </Card>
                     </Grid>
