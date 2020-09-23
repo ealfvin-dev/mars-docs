@@ -15,7 +15,7 @@ function Features() {
                 <Grid container spacing={3}>
                     <Grid item xs={6}>
                         <p className='summary'>
-                            Create and run advanced mass input files with error checking, line-by-line air buoyancy corrections and a graphical user interface.
+                            Create and run weighing design input files with error checking, line-by-line air buoyancy corrections and a graphical user interface.
                         </p>
                     </Grid>
                     <Grid item xs={6}>
