@@ -14,13 +14,9 @@ function Home() {
                  <Grid item xs={12}>
                     <h2 className='logoTitle' style={{textAlign: 'center'}}>MARS - Mass Reduction Software</h2>
                 </Grid>
-                <Grid item xs={4}>
-                </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12}>
                     {/* <h3 className='homepageText' style={{textAlign: 'center'}}>Allows your lab to produce more accurate precision mass results that are less prone to data-entry errors.</h3> */}
-                    <h3 className='homepageText' style={{textAlign: 'center'}}><strong>Report more accurate precision mass results with protection against data-entry errors.</strong></h3>
-                </Grid>
-                <Grid item xs={4}>
+                    <h3 className='homepageText' style={{textAlign: 'center', whiteSpace: 'pre'}}><strong>{"Report more accurate precision mass results\r\nwith protection against data-entry errors."}</strong></h3>
                 </Grid>
             </Grid>
         </div>
