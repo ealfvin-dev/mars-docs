@@ -15,7 +15,7 @@ function Header() {
                     </div>
                 </Grid>
                 <Grid item>
-                    <img className='headerLogo' src={require('./logo-out.png')} height='90px' alt='Mars logo'/>
+                    <img className='headerLogo' src={require('./logo-out.png')} alt='Mars logo'/>
                 </Grid>
             </Grid>
         </div>
