@@ -130,7 +130,7 @@ function ExampleFiles() {
                                 </Typography>
                                 <Typography variant="body2" component="p">
                                     AVDP, <br />
-                                    Manual readings
+                                    manual readings
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -150,7 +150,7 @@ function ExampleFiles() {
                                 </Typography>
                                 <Typography variant="body2" component="p">
                                     AVDP, <br />
-                                    Manual readings
+                                    manual readings
                                 </Typography>
                             </CardContent>
                             <CardActions>

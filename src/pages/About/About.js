@@ -20,7 +20,7 @@ function About() {
                         on automated balances or performed manually when the air pressure changes during the calibration.
                         <br/> <br/>
                         MARS also improves reliability. MARS is designed to check input data for consistency and identify any errors that may have occurred during data entry. This makes troubleshooting fast 
-                        and reduces the risk of producing bad measurement results. A series of 211 internal validation tests run each time the program is opened, further
+                        and reduces the risk of producing bad measurement results. A series of 211 internal validation tests runs each time the program is opened, further
                         ensuring that real-time mass calculations are accurate.
                         </p>
                     </Grid>
