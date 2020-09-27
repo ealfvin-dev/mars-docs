@@ -12,11 +12,12 @@
 .secondaryHeader {
     font-size: 20pt;
     font-weight: 500;
-    margin-top: -15px;
+    margin-top: -20px;
     margin-left: 17px;
     color: rgba(39.525, 55.335, 74.46, 1);
 }
 
 .headerLogo {
-    margin-top: 42px;
+    height: 90px;
+    margin-top: 37px;
 }
