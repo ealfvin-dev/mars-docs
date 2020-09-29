@@ -23,7 +23,7 @@ function Features() {
                     </Grid>
                     <Grid item xs={12}>
                         {largeScreen 
-                        ? <img src={require('./mars-ui.jpg')} width='1268px' alt="Mars software user interface" />
+                        ? <img src={require('./mars-ui.jpg')} width='1271px' alt="Mars software user interface" />
                         : <img src={require('./mars-ui-small.jpg')} width='964px' alt="Mars software user interface" />
                         }
                     </Grid>
@@ -68,6 +68,22 @@ function Features() {
                     </Grid>
                     <Grid item xs={8}>
                         <img src={require('./ABC.jpg')} width='594' alt="Air buoyancy correction input example" />
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={6}>
+                        <h3>Data Visualization Dashboard</h3>
+                        <p>
+                            Inspect visualizations of results for each series
+                        </p>
+                    </Grid>
+                    <Grid item xs={6}>
+
+                    </Grid>
+                    <Grid item xs={12}>
+                        {largeScreen 
+                        ? <img src={require('./dashboard-ui.jpg')} width='1275px' alt="Mars software data visualization" />
+                        : <img src={require('./dashboard-ui-small.jpg')} width='966px' alt="Mars software data visualization" />
+                        }
                     </Grid>
                     <Divider />
                     <Grid item xs={2}>
