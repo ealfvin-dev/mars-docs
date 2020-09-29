@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad202994cad11deeb3c0d16eecc0148d",
+    "revision": "753095067d3b626a4a57444631d947f3",
     "url": "/index.html"
   },
   {
-    "revision": "42d5ec5eca4816ead123",
-    "url": "/static/css/main.b463de15.chunk.css"
+    "revision": "db7cb9227306d97e6a0b",
+    "url": "/static/css/main.a7394b94.chunk.css"
   },
   {
-    "revision": "9ad8a40ed201f2eb02a4",
-    "url": "/static/js/2.0056ea7a.chunk.js"
+    "revision": "7656b7ef9e3cd335264b",
+    "url": "/static/js/2.3fc3817b.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.0056ea7a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3fc3817b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "42d5ec5eca4816ead123",
-    "url": "/static/js/main.7a0514c4.chunk.js"
+    "revision": "db7cb9227306d97e6a0b",
+    "url": "/static/js/main.c801970c.chunk.js"
   },
   {
     "revision": "5bb07f7d932a58aaf7c0",
@@ -34,6 +34,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "11e571b7c689d3afa674dc043693e8f5",
     "url": "/static/media/Input-Buttons.11e571b7.jpg"
+  },
+  {
+    "revision": "eb490d7964cb85fd916dc2b2d6115482",
+    "url": "/static/media/dashboard-ui-small.eb490d79.jpg"
+  },
+  {
+    "revision": "31dccb9e611257180bf536beb1ff4251",
+    "url": "/static/media/dashboard-ui.31dccb9e.jpg"
   },
   {
     "revision": "060ba478002854fa866be3bcb711a3e8",
@@ -56,16 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo-out.2f15694c.png"
   },
   {
-    "revision": "0040e5f79a3ef250a458c4b27444482f",
-    "url": "/static/media/mars-planet-out.0040e5f7.jpg"
+    "revision": "d8e20d11006ebac200a14141f0da1a08",
+    "url": "/static/media/mars-planet-out.d8e20d11.jpg"
   },
   {
-    "revision": "d668ad8db39bb6f03e008369afc1627b",
-    "url": "/static/media/mars-ui-small.d668ad8d.jpg"
+    "revision": "2ca9fb8aa7926ef1978186dd954713e7",
+    "url": "/static/media/mars-ui-small.2ca9fb8a.jpg"
   },
   {
-    "revision": "67acb6116987b17611d8911337fd0c4b",
-    "url": "/static/media/mars-ui.67acb611.jpg"
+    "revision": "725c5c80f9b9f84e44c3b598b9a69243",
+    "url": "/static/media/mars-ui.725c5c80.jpg"
   },
   {
     "revision": "221a39fa635682d1773a1095f178bb08",
