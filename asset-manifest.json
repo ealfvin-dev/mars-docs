@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7394b94.chunk.css",
-    "main.js": "/static/js/main.c801970c.chunk.js",
-    "main.js.map": "/static/js/main.c801970c.chunk.js.map",
+    "main.css": "/static/css/main.65ac6451.chunk.css",
+    "main.js": "/static/js/main.ba46e85d.chunk.js",
+    "main.js.map": "/static/js/main.ba46e85d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ab5ba188.js",
     "runtime-main.js.map": "/static/js/runtime-main.ab5ba188.js.map",
-    "static/js/2.3fc3817b.chunk.js": "/static/js/2.3fc3817b.chunk.js",
-    "static/js/2.3fc3817b.chunk.js.map": "/static/js/2.3fc3817b.chunk.js.map",
+    "static/js/2.cfee60ed.chunk.js": "/static/js/2.cfee60ed.chunk.js",
+    "static/js/2.cfee60ed.chunk.js.map": "/static/js/2.cfee60ed.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8112fc8d8293c292b9693f852097030d.js": "/precache-manifest.8112fc8d8293c292b9693f852097030d.js",
+    "precache-manifest.8a55ad4d339e305fa2bf9062a7485a1d.js": "/precache-manifest.8a55ad4d339e305fa2bf9062a7485a1d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a7394b94.chunk.css.map": "/static/css/main.a7394b94.chunk.css.map",
-    "static/js/2.3fc3817b.chunk.js.LICENSE.txt": "/static/js/2.3fc3817b.chunk.js.LICENSE.txt",
+    "static/css/main.65ac6451.chunk.css.map": "/static/css/main.65ac6451.chunk.css.map",
+    "static/js/2.cfee60ed.chunk.js.LICENSE.txt": "/static/js/2.cfee60ed.chunk.js.LICENSE.txt",
     "static/media/ABC.jpg": "/static/media/ABC.9c6f7631.jpg",
     "static/media/Gravity.jpg": "/static/media/Gravity.78a08bdf.jpg",
     "static/media/Input-Buttons.jpg": "/static/media/Input-Buttons.11e571b7.jpg",
@@ -22,15 +22,16 @@
     "static/media/inputTags-small.jpg": "/static/media/inputTags-small.933b7f61.jpg",
     "static/media/inputTags.jpg": "/static/media/inputTags.b941b309.jpg",
     "static/media/logo-out.png": "/static/media/logo-out.2f15694c.png",
-    "static/media/Home.css": "/static/media/mars-planet-out.d8e20d11.jpg",
+    "static/media/Home.css": "/static/media/mars-planet-out.1a03ffc3.jpg",
     "static/media/mars-ui-small.jpg": "/static/media/mars-ui-small.2ca9fb8a.jpg",
     "static/media/mars-ui.jpg": "/static/media/mars-ui.725c5c80.jpg",
-    "static/media/split-series.jpg": "/static/media/split-series.221a39fa.jpg"
+    "static/media/split-series.jpg": "/static/media/split-series.221a39fa.jpg",
+    "static/media/sw-database-b.jpg": "/static/media/sw-database-b.90bdf026.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ab5ba188.js",
-    "static/js/2.3fc3817b.chunk.js",
-    "static/css/main.a7394b94.chunk.css",
-    "static/js/main.c801970c.chunk.js"
+    "static/js/2.cfee60ed.chunk.js",
+    "static/css/main.65ac6451.chunk.css",
+    "static/js/main.ba46e85d.chunk.js"
   ]
 }

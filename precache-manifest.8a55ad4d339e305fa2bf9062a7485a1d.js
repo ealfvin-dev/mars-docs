@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "753095067d3b626a4a57444631d947f3",
+    "revision": "f77c27aacafff296c96e28280f25442b",
     "url": "/index.html"
   },
   {
-    "revision": "db7cb9227306d97e6a0b",
-    "url": "/static/css/main.a7394b94.chunk.css"
+    "revision": "7f0afb75cab87da12c2d",
+    "url": "/static/css/main.65ac6451.chunk.css"
   },
   {
-    "revision": "7656b7ef9e3cd335264b",
-    "url": "/static/js/2.3fc3817b.chunk.js"
+    "revision": "656e6fd970a51a678405",
+    "url": "/static/js/2.cfee60ed.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.3fc3817b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.cfee60ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db7cb9227306d97e6a0b",
-    "url": "/static/js/main.c801970c.chunk.js"
+    "revision": "7f0afb75cab87da12c2d",
+    "url": "/static/js/main.ba46e85d.chunk.js"
   },
   {
     "revision": "5bb07f7d932a58aaf7c0",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo-out.2f15694c.png"
   },
   {
-    "revision": "d8e20d11006ebac200a14141f0da1a08",
-    "url": "/static/media/mars-planet-out.d8e20d11.jpg"
+    "revision": "1a03ffc3c430ee68b245de2ec94cd4bf",
+    "url": "/static/media/mars-planet-out.1a03ffc3.jpg"
   },
   {
     "revision": "2ca9fb8aa7926ef1978186dd954713e7",
@@ -78,5 +78,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "221a39fa635682d1773a1095f178bb08",
     "url": "/static/media/split-series.221a39fa.jpg"
+  },
+  {
+    "revision": "90bdf0263be4a17cd0beb1d06b26ac52",
+    "url": "/static/media/sw-database-b.90bdf026.jpg"
   }
 ]);
