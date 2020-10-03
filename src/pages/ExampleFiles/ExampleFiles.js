@@ -9,6 +9,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Header from '../../components/Header';
 
+import '../pages.css'
 import './ExampleFiles.css'
 
 const useStyles = makeStyles({
@@ -29,7 +30,7 @@ function ExampleFiles() {
     return (
         <div>
             <Header />
-            <div className='exampleFiles'>
+            <div className='pageLayout'>
                 <Grid container spacing={3}>
                     <Grid item>
                         <Card className={classes.root} variant="outlined">

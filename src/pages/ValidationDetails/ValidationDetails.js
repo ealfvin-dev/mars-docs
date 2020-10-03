@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../../components/Header';
 import Grid from '@material-ui/core/Grid';
 
+import '../pages.css'
 import './ValidationDetails.css'
 
 function ValidationDetails() {
     return (
         <div>
             <Header />
-            <div className="validationDetails">
+            <div className='pageLayout'>
                 <Grid container spacing={3}>
                     <Grid item xs={8}>
                         <p>
