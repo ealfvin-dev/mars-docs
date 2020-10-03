@@ -2,13 +2,13 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Header from '../../components/Header';
 
-import './About.css'
+import '../pages.css'
 
 function About() {
     return (
         <div>
             <Header />
-            <div className='about'>
+            <div className='pageLayout'>
                 <Grid container spacing={3}>
                     <Grid item xs={9}>
                         <p>

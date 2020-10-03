@@ -1,0 +1,14 @@
+.pageLayout {
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+p {
+    font-size: 12pt;
+}
+
+h3 {
+    color: rgb(50, 50, 50);
+}

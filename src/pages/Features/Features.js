@@ -4,18 +4,19 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Header from '../../components/Header';
 import Divider from '../../components/Divider';
 
+import '../pages.css'
 import './Features.css'
 
 function Features() {
-    const largeScreen = useMediaQuery('(min-width:1600px)');
+    const largeScreen = useMediaQuery('(min-width:1595px)');
     return (
         <div>
             <Header />
-            <div className="features">
+            <div className='pageLayout'>
                 <Grid container spacing={3}>
                     <Grid item xs={6}>
                         <p className='summary'>
-                            Create and run weighing design input files with error checking, line-by-line air buoyancy corrections and a graphical user interface.
+                            Calculate results of precision mass calibrations with error checking, line-by-line air buoyancy corrections and a graphical user interface.
                         </p>
                     </Grid>
                     <Grid item xs={6}>
@@ -31,7 +32,7 @@ function Features() {
                     <Grid item xs={5}>
                         <h3>Input File Readability</h3>
                         <p>
-                            Line tags are automatically inserted as you create files for better readability and lower risk of data entry errors.
+                            As input files are made, tags are automatically appended to each line for better readability and lower risk of data entry errors.
                         </p>
                     </Grid>
                     <Grid item xs={7}>
@@ -44,7 +45,8 @@ function Features() {
                     <Grid item xs={5}>
                         <h3>Identify Errors in Input Files</h3>
                         <p>
-                            MARS will run a series of checks on your input files before they run and identify any errors it finds.
+                            MARS automatically runs a series of checks on user input data. Any errors or inconsistencies found in the data are identified,
+                            making it easy to troubleshooting input files.
                         </p>
                     </Grid>
                     <Grid item xs={7}>
@@ -54,13 +56,14 @@ function Features() {
                         }
                     </Grid>
                     <Divider />
-                    <Grid item xs={4}>
+                    <Grid item xs={5}>
                         <h3>Perform line-by-line air buoyancy corrections and center of mass gravitational corrections</h3>
                         <p>
-                            
+                            MARS has the ability to process different environmental conditions for each line in the calibration. The software can also
+                            perform gravitational corrections when calibrating weights of different heights.
                         </p>
                     </Grid>
-                    <Grid item xs={8}>
+                    <Grid item xs={7}>
                         
                     </Grid>
                     <Grid item xs={4}>
@@ -73,7 +76,9 @@ function Features() {
                     <Grid item xs={6}>
                         <h3>Data Visualization Dashboard</h3>
                         <p>
-                            Inspect visualizations of results for each series
+                            Visualize measurement results and spot trends within the calibration. If the F or T test failed,
+                            use the plots to identify mistakes that may have occured durign the calibration process. Assess balance
+                            performance over the course of a calibration and any dependencies it may have on operating temperature.
                         </p>
                     </Grid>
                     <Grid item xs={6}>
@@ -86,20 +91,30 @@ function Features() {
                         }
                     </Grid>
                     <Divider />
+                    <Grid item xs={4}>
+                        <h3>Save Sensitivity Weight & Standard Deviation Data in a Local SQLite Database</h3>
+                        <p>
+                            Save sensitivity weight data in a local database to easily use in future input files.
+                        </p>
+                    </Grid>
+                    <Grid item xs={8}>
+                        <img src={require('./sw-database-b.jpg')} width='608' alt="Sensitivity Weight Database" />
+                    </Grid>
+                    <Divider />
                     <Grid item xs={2}>
                         <img src={require('./split-series.jpg')} width='154px' alt="Split series menu view" />
                     </Grid>
                     <Grid item xs={5}>
                         <h3>View One Series at a Time</h3>
                         <p>
-                            Navigate between connected calibrations in an input file and view input data for one series at a time.
+                            Navigate between multiple series in an input file and view input data for one series at a time.
                         </p>
                     </Grid>
                     <Grid item xs={5}>
                     </Grid>
                     <Divider />
                     <Grid item xs={5}>
-                        <h3>Keep Track of What Data Has Been Entered in Each Series</h3>
+                        <h3>Keep Track of What Data Has Been Entered For Each Series</h3>
                         <p>
                             Data entry is organized by series. Buttons colors will indicate what data has been entered in each series and what is left to complete.
                         </p>
@@ -108,6 +123,7 @@ function Features() {
                         <img src={require('./Input-Buttons.jpg')} width='400' alt="Input file with caught error" />
                     </Grid>
                     <Divider />
+                    <h3>More details about these features can be found in the Documentation tab</h3>
                 </Grid>
             </div>
         </div>
