@@ -59,7 +59,7 @@ function Features() {
                     <Grid item xs={5}>
                         <h3>Perform line-by-line air buoyancy corrections and center of mass gravitational corrections</h3>
                         <p>
-                            MARS has the option to process different environmental conditions for each line in the calibration. The program can also
+                            MARS has the ability to process different environmental conditions for each line in the calibration. The software can also
                             perform gravitational corrections when calibrating weights of different heights.
                         </p>
                     </Grid>
@@ -71,6 +71,34 @@ function Features() {
                     </Grid>
                     <Grid item xs={8}>
                         <img src={require('./ABC.jpg')} width='594' alt="Air buoyancy correction input example" />
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={6}>
+                        <h3>Data Visualization Dashboard</h3>
+                        <p>
+                            Visualize measurement results and spot trends within the calibration. If the F or T test failed,
+                            use the plots to identify mistakes that may have occured durign the calibration process. Assess balance
+                            performance over the course of a calibration and any dependencies it may have on operating temperature.
+                        </p>
+                    </Grid>
+                    <Grid item xs={6}>
+
+                    </Grid>
+                    <Grid item xs={12}>
+                        {largeScreen 
+                        ? <img src={require('./dashboard-ui.jpg')} width='1275px' alt="Mars software data visualization" />
+                        : <img src={require('./dashboard-ui-small.jpg')} width='966px' alt="Mars software data visualization" />
+                        }
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={4}>
+                        <h3>Save Sensitivity Weight & Standard Deviation Data in a Local SQLite Database</h3>
+                        <p>
+                            Save sensitivity weight data in a local database to easily use in future input files.
+                        </p>
+                    </Grid>
+                    <Grid item xs={8}>
+                        <img src={require('./sw-database-b.jpg')} width='608' alt="Sensitivity Weight Database" />
                     </Grid>
                     <Divider />
                     <Grid item xs={2}>
@@ -93,24 +121,6 @@ function Features() {
                     </Grid>
                     <Grid item xs={7}>
                         <img src={require('./Input-Buttons.jpg')} width='400' alt="Input file with caught error" />
-                    </Grid>
-                    <Divider />
-                    <Grid item xs={6}>
-                        <h3>Data Visualization Dashboard</h3>
-                        <p>
-                            Visualize measurement results and spot trends within the calibration. If the F or T test failed,
-                            use the plots to identify mistakes that may have occured durign the calibration process. Assess balance
-                            performance over the course of a calibration and any dependencies it may have on operating temperature.
-                        </p>
-                    </Grid>
-                    <Grid item xs={6}>
-
-                    </Grid>
-                    <Grid item xs={12}>
-                        {largeScreen 
-                        ? <img src={require('./dashboard-ui.jpg')} width='1275px' alt="Mars software data visualization" />
-                        : <img src={require('./dashboard-ui-small.jpg')} width='966px' alt="Mars software data visualization" />
-                        }
                     </Grid>
                     <Divider />
                     <h3>More details about these features can be found in the Documentation tab</h3>
