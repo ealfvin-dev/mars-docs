@@ -60,7 +60,7 @@ function Features() {
                     </Grid>
                     <Divider />
                     <Grid item xs={5}>
-                        <h3>Perform line-by-line air buoyancy corrections and center-of-mass gravitational corrections</h3>
+                        <h3>Line-by-line air buoyancy corrections and center-of-mass gravitational corrections</h3>
                         <p>
                             MARS has the ability to process different environmental conditions for each line in the calibration. The software can also
                             perform gravitational corrections when calibrating weights of unequal heights.

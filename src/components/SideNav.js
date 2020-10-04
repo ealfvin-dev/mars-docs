@@ -53,8 +53,8 @@ function SideNav(props) {
                     <ListItem
                     key={index}
                     style={{
-                        paddingTop: isSubMenu(text) ? '1px' : '7px',
-                        paddingBottom: (isSubMenu(text) || text === 'Documentation') && text !== 'Debugging' ? '1px' : '7px',
+                        paddingTop: isSubMenu(text) ? '2px' : '7px',
+                        paddingBottom: (isSubMenu(text) || text === 'Documentation') && text !== 'Debugging' ? '2px' : '7px',
                         marginLeft: isSubMenu(text) ? '17px': '0px'
                     }}
                     >

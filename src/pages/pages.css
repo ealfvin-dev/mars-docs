@@ -12,3 +12,13 @@ p {
 h3 {
     color: rgb(50, 50, 50);
 }
+
+.textBlock {
+    width: 810px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .textBlock {
+        width: 100%;
+    }
+}
