@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.327ccce4.chunk.css",
-    "main.js": "/static/js/main.8e1a416a.chunk.js",
-    "main.js.map": "/static/js/main.8e1a416a.chunk.js.map",
+    "main.css": "/static/css/main.bcfbd725.chunk.css",
+    "main.js": "/static/js/main.950e302e.chunk.js",
+    "main.js.map": "/static/js/main.950e302e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ab5ba188.js",
     "runtime-main.js.map": "/static/js/runtime-main.ab5ba188.js.map",
-    "static/js/2.cfee60ed.chunk.js": "/static/js/2.cfee60ed.chunk.js",
-    "static/js/2.cfee60ed.chunk.js.map": "/static/js/2.cfee60ed.chunk.js.map",
+    "static/js/2.d1fb2968.chunk.js": "/static/js/2.d1fb2968.chunk.js",
+    "static/js/2.d1fb2968.chunk.js.map": "/static/js/2.d1fb2968.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a95ecfc499548672e5c5846b2ab5b67a.js": "/precache-manifest.a95ecfc499548672e5c5846b2ab5b67a.js",
+    "precache-manifest.071cf001785342c6298607b7a72b435b.js": "/precache-manifest.071cf001785342c6298607b7a72b435b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.327ccce4.chunk.css.map": "/static/css/main.327ccce4.chunk.css.map",
-    "static/js/2.cfee60ed.chunk.js.LICENSE.txt": "/static/js/2.cfee60ed.chunk.js.LICENSE.txt",
+    "static/css/main.bcfbd725.chunk.css.map": "/static/css/main.bcfbd725.chunk.css.map",
+    "static/js/2.d1fb2968.chunk.js.LICENSE.txt": "/static/js/2.d1fb2968.chunk.js.LICENSE.txt",
     "static/media/ABC.jpg": "/static/media/ABC.9c6f7631.jpg",
+    "static/media/ErrorText.jpg": "/static/media/ErrorText.6b6172e0.jpg",
     "static/media/Gravity.jpg": "/static/media/Gravity.78a08bdf.jpg",
     "static/media/Input-Buttons.jpg": "/static/media/Input-Buttons.11e571b7.jpg",
     "static/media/dashboard-ui-small.jpg": "/static/media/dashboard-ui-small.eb490d79.jpg",
     "static/media/dashboard-ui.jpg": "/static/media/dashboard-ui.31dccb9e.jpg",
+    "static/media/debug.jpg": "/static/media/debug.3cd8a2d6.jpg",
     "static/media/error-handling-small.jpg": "/static/media/error-handling-small.060ba478.jpg",
     "static/media/error-handling.jpg": "/static/media/error-handling.ce23ee9a.jpg",
     "static/media/inputPopup.jpg": "/static/media/inputPopup.52aff725.jpg",
@@ -31,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ab5ba188.js",
-    "static/js/2.cfee60ed.chunk.js",
-    "static/css/main.327ccce4.chunk.css",
-    "static/js/main.8e1a416a.chunk.js"
+    "static/js/2.d1fb2968.chunk.js",
+    "static/css/main.bcfbd725.chunk.css",
+    "static/js/main.950e302e.chunk.js"
   ]
 }
