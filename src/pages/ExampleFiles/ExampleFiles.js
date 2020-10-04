@@ -9,8 +9,8 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Header from '../../components/Header';
 
-import '../pages.css'
-import './ExampleFiles.css'
+import '../pages.css';
+import './ExampleFiles.css';
 
 const useStyles = makeStyles({
     root: {

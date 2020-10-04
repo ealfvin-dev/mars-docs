@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 
-import './Home.css'
+import './Home.css';
 
 function Home() {
     return (
