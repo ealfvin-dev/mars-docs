@@ -39,7 +39,7 @@ function SideNav(props) {
     }
 
     const isSubMenu = (text) => {
-        if(text === 'Creating Input Files' || text === 'Saving Data in Database' || text === 'Debugging') {
+        if(text === 'Creating Input Files' || text === 'Saving Data in Database' || text === 'Debugging' || text === 'Tags') {
             return true;
         }
         return false;
@@ -48,13 +48,13 @@ function SideNav(props) {
     const drawer = (
         <div>
             <List>
-                {['Home', 'Features', 'Documentation', 'Creating Input Files', 'Saving Data in Database', 'Debugging', 'Validation Details', 'About']
+                {['Home', 'Features', 'Documentation', 'Creating Input Files', 'Saving Data in Database', 'Debugging', 'Tags', 'Validation Details', 'About']
                 .map((text, index) => (
                     <ListItem
                     key={index}
                     style={{
-                        paddingTop: isSubMenu(text) ? '1px' : '7px',
-                        paddingBottom: (isSubMenu(text) || text === 'Documentation') && text !== 'Debugging' ? '1px' : '7px',
+                        paddingTop: isSubMenu(text) ? '2px' : '7px',
+                        paddingBottom: (isSubMenu(text) || text === 'Documentation') && text !== 'Tags' ? '2px' : '7px',
                         marginLeft: isSubMenu(text) ? '17px': '0px'
                     }}
                     >

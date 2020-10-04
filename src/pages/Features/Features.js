@@ -25,8 +25,8 @@ function Features() {
                     </Grid>
                     <Grid item xs={12}>
                         {largeScreen 
-                        ? <img src={require('./mars-ui.jpg')} width='1271px' alt="Mars software user interface" />
-                        : <img src={require('./mars-ui-small.jpg')} width='964px' alt="Mars software user interface" />
+                        ? <img src={require('./Images/mars-ui.jpg')} width='1271px' alt="Mars software user interface" />
+                        : <img src={require('./Images/mars-ui-small.jpg')} width='964px' alt="Mars software user interface" />
                         }
                     </Grid>
                     <Divider />
@@ -43,8 +43,8 @@ function Features() {
                     </Grid>
                     <Grid item xs={12}>
                         {largeScreen 
-                        ? <img src={require('./dashboard-ui.jpg')} width='1275px' alt="Mars software data visualization" />
-                        : <img src={require('./dashboard-ui-small.jpg')} width='966px' alt="Mars software data visualization" />
+                        ? <img src={require('./Images/dashboard-ui.jpg')} width='1275px' alt="Mars software data visualization" />
+                        : <img src={require('./Images/dashboard-ui-small.jpg')} width='966px' alt="Mars software data visualization" />
                         }
                     </Grid>
                     <Divider />
@@ -56,11 +56,11 @@ function Features() {
                         </p>
                     </Grid>
                     <Grid item xs={8}>
-                        <img src={require('./inputPopup.jpg')} width='485' alt="Sensitivity Weight Database" />
+                        <img src={require('./Images/inputPopup.jpg')} width='485' alt="Sensitivity Weight Database" />
                     </Grid>
                     <Divider />
                     <Grid item xs={5}>
-                        <h3>Perform line-by-line air buoyancy corrections and center-of-mass gravitational corrections</h3>
+                        <h3>Line-by-line air buoyancy corrections and center-of-mass gravitational corrections</h3>
                         <p>
                             MARS has the ability to process different environmental conditions for each line in the calibration. The software can also
                             perform gravitational corrections when calibrating weights of unequal heights.
@@ -70,10 +70,10 @@ function Features() {
                         
                     </Grid>
                     <Grid item xs={4}>
-                        <img src={require('./Gravity.jpg')} width='325' alt="Gravity correction input example" />
+                        <img src={require('./Images/Gravity.jpg')} width='325' alt="Gravity correction input example" />
                     </Grid>
                     <Grid item xs={8}>
-                        <img src={require('./ABC.jpg')} width='594' alt="Air buoyancy correction input example" />
+                        <img src={require('./Images/ABC.jpg')} width='594' alt="Air buoyancy correction input example" />
                     </Grid>
                     <Divider />
                     <Grid item xs={5}>
@@ -84,8 +84,8 @@ function Features() {
                     </Grid>
                     <Grid item xs={7}>
                         {largeScreen
-                        ? <img src={require('./inputTags.jpg')} width='735px' alt="Input file with caught error" />
-                        : <img src={require('./inputTags-small.jpg')} width='526' alt="Input file with caught error" />
+                        ? <img src={require('./Images/inputTags.jpg')} width='735px' alt="Input file with caught error" />
+                        : <img src={require('./Images/inputTags-small.jpg')} width='526' alt="Input file with caught error" />
                         }
                     </Grid>
                     <Divider />
@@ -98,8 +98,8 @@ function Features() {
                     </Grid>
                     <Grid item xs={7}>
                         {largeScreen
-                        ? <img src={require('./error-handling.jpg')} width='735px' alt="Input file with caught error" />
-                        : <img src={require('./error-handling-small.jpg')} width='530px' alt="Input file with caught error" />
+                        ? <img src={require('./Images/error-handling.jpg')} width='735px' alt="Input file with caught error" />
+                        : <img src={require('./Images/error-handling-small.jpg')} width='530px' alt="Input file with caught error" />
                         }
                     </Grid>
                     <Divider />
@@ -110,11 +110,11 @@ function Features() {
                         </p>
                     </Grid>
                     <Grid item xs={8}>
-                        <img src={require('./sw-database-b.jpg')} width='608' alt="Sensitivity Weight Database" />
+                        <img src={require('./Images/sw-database-b.jpg')} width='608' alt="Sensitivity Weight Database" />
                     </Grid>
                     <Divider />
                     <Grid item xs={2}>
-                        <img src={require('./split-series.jpg')} width='154px' alt="Split series menu view" />
+                        <img src={require('./Images/split-series.jpg')} width='154px' alt="Split series menu view" />
                     </Grid>
                     <Grid item xs={5}>
                         <h3>View One Series at a Time</h3>
@@ -132,7 +132,7 @@ function Features() {
                         </p>
                     </Grid>
                     <Grid item xs={7}>
-                        <img src={require('./Input-Buttons.jpg')} width='400' alt="Input file with caught error" />
+                        <img src={require('./Images/Input-Buttons.jpg')} width='400' alt="Input file with caught error" />
                     </Grid>
                     <Divider />
                     <h3>More details about these features can be found in the Documentation tab</h3>
