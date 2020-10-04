@@ -2,8 +2,8 @@ import React from 'react';
 import Header from '../../components/Header';
 import Grid from '@material-ui/core/Grid';
 
-import '../pages.css'
-import './ValidationDetails.css'
+import '../pages.css';
+import './ValidationDetails.css';
 
 function ValidationDetails() {
     return (

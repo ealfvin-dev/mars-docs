@@ -8,7 +8,7 @@ import About from './pages/About/About';
 import Documentation from './pages/Documentation/Documentation';
 import ValidationDetails from './pages/ValidationDetails/ValidationDetails';
 import ExampleFiles from './pages/ExampleFiles/ExampleFiles';
-import ViewFile from './pages/ExampleFiles/ViewFile'
+import ViewFile from './pages/ExampleFiles/ViewFile';
 import Features from './pages/Features/Features';
 
 const useStyles = makeStyles(() => ({

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header';
 
-import '../pages.css'
+import '../pages.css';
 
 function Documentation() {
     return (

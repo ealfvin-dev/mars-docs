@@ -2,10 +2,10 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Header from '../../components/Header';
-import fileTexts from '../../exampleFiles/ExampleFileTexts'
+import fileTexts from '../../exampleFiles/ExampleFileTexts';
 
-import '../pages.css'
-import './ExampleFiles.css'
+import '../pages.css';
+import './ExampleFiles.css';
 
 function ViewFile() {
     const fileName = window.location.href.split('/').pop()
