@@ -3,15 +3,15 @@ import Header from '../../components/Header';
 
 import '../pages.css';
 
-function Documentation() {
+function Debugging() {
     return (
         <div>
             <Header />
             <div className='pageLayout'>
-                Docs
+                Debug
             </div>
         </div>
     )
 }
 
-export default Documentation;
+export default Debugging;

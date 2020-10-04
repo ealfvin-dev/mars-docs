@@ -38,15 +38,36 @@ function SideNav(props) {
         setActiveTab(e.target.text);
     }
 
+    const isSubMenu = (text) => {
+        if(text === 'Creating Input Files' || text === 'Saving Data in Database' || text === 'Debugging') {
+            return true;
+        }
+        return false;
+    }
+
     const drawer = (
         <div>
             <List>
-                {['Home', 'Features', 'Documentation', 'Validation Details', 'About'].map((text, index) => (
-                    <ListItem key={index}>
+                {['Home', 'Features', 'Documentation', 'Creating Input Files', 'Saving Data in Database', 'Debugging', 'Validation Details', 'About']
+                .map((text, index) => (
+                    <ListItem
+                    key={index}
+                    style={{
+                        paddingTop: isSubMenu(text) ? '1px' : '7px',
+                        paddingBottom: (isSubMenu(text) || text === 'Documentation') && text !== 'Debugging' ? '1px' : '7px',
+                        marginLeft: isSubMenu(text) ? '17px': '0px'
+                    }}
+                    >
                         <Link 
-                        to={"/" + text.replace(/\s+/g, '').toLowerCase()}
+                        to={text !== "Documentation" ? "/" + text.replace(/\s+/g, '').toLowerCase() : "#"}
                         onClick={handleNavClick}
-                        style={{ textDecoration: 'none', color: 'white', fontSize: '12pt', margin: '2%', fontWeight: text === activeTab ? 'bold' : 'normal' }}
+                        style={{
+                            textDecoration: 'none',
+                            color: 'white',
+                            fontSize: isSubMenu(text) ? '11pt' : '12pt',
+                            margin: '4px',
+                            fontWeight: text === activeTab ? 'bold' : 'normal'
+                        }}
                         >
                             {text}
                         </Link>
@@ -60,7 +81,13 @@ function SideNav(props) {
                     <Link 
                     to={"/examplefiles"}
                     onClick={handleNavClick}
-                    style={{ textDecoration: 'none', color: 'white', fontSize: '12pt', margin: '2%', fontWeight: text === activeTab ? 'bold' : 'normal' }}
+                    style={{
+                        textDecoration: 'none',
+                        color: 'white',
+                        fontSize: '12pt',
+                        margin: '4px',
+                        fontWeight: text === activeTab ? 'bold' : 'normal'
+                    }}
                     >
                         {text}
                     </Link>

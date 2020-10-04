@@ -5,7 +5,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import SideNav from './components/SideNav';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
-import Documentation from './pages/Documentation/Documentation';
+import CreatingInputFiles from './pages/Documentation/CreatingInputFiles';
+import SavingDataInDatabase from './pages/Documentation/SavingDataInDatabase';
+import Debugging from './pages/Documentation/Debugging';
 import ValidationDetails from './pages/ValidationDetails/ValidationDetails';
 import ExampleFiles from './pages/ExampleFiles/ExampleFiles';
 import ViewFile from './pages/ExampleFiles/ViewFile';
@@ -33,7 +35,9 @@ function App() {
           <Route exact path={"/home"} component={Home} />
           <Route exact path={"/features"} component={Features} />
           <Route exact path={"/about"} component={About} />
-          <Route exact path={"/documentation"} component={Documentation} />
+          <Route exact path={"/creatinginputfiles"} component={CreatingInputFiles} />
+          <Route exact path={"/savingdataindatabase"} component={SavingDataInDatabase} />
+          <Route exact path={"/debugging"} component={Debugging} />
           <Route exact path={"/validationdetails"} component={ValidationDetails} />
           <Route exact path={"/examplefiles"} component={ExampleFiles} />
           <Route path={"/examplefile"} component={ViewFile} />
