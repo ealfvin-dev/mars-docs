@@ -9,7 +9,7 @@ function Home() {
             {/* <Header subHeader="Mass Reduction Software"/> */}
              <Grid container spacing={3}>
                  <Grid item xs={12} style={{justifyContent: 'center'}}>
-                    <img src={require('../../components/logo-out.png')} height='200px' alt='Mars Logo' style={{display: 'block', margin: 'auto'}} />
+                    <img src={require('./logo-out.png')} height='200px' alt='Mars Logo' style={{display: 'block', margin: 'auto'}} />
                  </Grid>
                  <Grid item xs={12}>
                     <h2 className='logoTitle' style={{textAlign: 'center'}}>MARS - Mass Reduction Software</h2>

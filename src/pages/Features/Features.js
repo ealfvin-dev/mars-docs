@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
-import Header from '../../components/Header';
+import Header from '../../components/Header/Header';
 import Divider from '../../components/Divider';
 
 import '../pages.css';
