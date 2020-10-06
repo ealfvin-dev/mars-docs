@@ -1,0 +1,11 @@
+.tagDesc {
+    padding-left: 35px;
+}
+
+.tagExample {
+    padding: 8px;
+    margin-left: 35px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 11pt;
+    white-space: pre;
+}
