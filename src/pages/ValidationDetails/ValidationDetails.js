@@ -16,7 +16,7 @@ function ValidationDetails() {
                     corrupted or computer malfunction, an error will be displayed when the program is opened. These tests can also be run by clicking "Run Tests" 
                     in the menu. <br /> <br />
                     Solutions to the designs are calculated with the matrix least squares solution in NBS Technical Note 952. <br />
-                    Air densities are calculated using the CIPM 2007 air density equation (Picard et al.).
+                    Air densities are calculated using the CIPM 2007 air density equation (Picard et al.). <br /><br />
                     </p>
 
                     <h2>System Checks</h2>
