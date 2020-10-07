@@ -12,6 +12,16 @@ function Features() {
         <div>
             <Header />
             <div className='pageLayout'>
+                <div className='textBlock'>
+                    <p>
+                        <em>
+                        Mass Reduction Software is a metrology tool to process measurements in precision mass weighing designs.
+                        There are a number of features that differentiate it from currently-available software and make it much
+                        easier to learn. The software facilitates the process of creating input files, troubleshooting, and catching errors that might
+                        otherwise slip through the cracks. Here are some of the key features:
+                        </em>
+                    </p>
+                </div>
                 <Grid container spacing={3}>
                     <Grid item xs={6}>
                         <h3>Graphical User Interface</h3>

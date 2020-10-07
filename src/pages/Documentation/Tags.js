@@ -99,7 +99,12 @@ function Tags() {
                     <TagEntry
                         tag="<Height>"
                         description="(Optional) If using gravity corrections, the height of the center of mass of each weight, in cm. Numeric."
-                        example={["2.4"]}
+                        example={[
+                            "2.0",
+                            "2.4",
+                            "2.0",
+                            "2.5"
+                        ]}
                     />
 
                     <TagEntry
