@@ -16,8 +16,8 @@ function Features() {
                     <p>
                         <em>
                         Mass Reduction Software is a metrology tool to process measurements in precision mass weighing designs.
-                        There are a number of features that differentiate it from currently-available software and make it much
-                        easier to learn. The software facilitates the process of creating input files, troubleshooting, and catching errors that might
+                        There are a number of features that differentiate it from currently available software and make it
+                        easier to use. The software facilitates the process of creating input files, troubleshooting, and catching errors that might
                         otherwise slip through the cracks. Here are some of the key features:
                         </em>
                     </p>
@@ -145,7 +145,7 @@ function Features() {
                         <img src={require('./Images/Input-Buttons.jpg')} width='400' alt="Input file with caught error" />
                     </Grid>
                     <Divider />
-                    <h3>More details about these features can be found in the Documentation tab</h3>
+                    <h3>More details about these features can be found in the Documentation tab.</h3>
                 </Grid>
             </div>
         </div>
