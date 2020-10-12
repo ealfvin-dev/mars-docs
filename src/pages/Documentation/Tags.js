@@ -14,14 +14,14 @@ function Tags() {
                     <p>
                         When building input files in the user interface, line tags are automatically
                         inserted on each line so you will not need to remember input tags. However,
-                        a full list of input line tags and examples are included here for reference
+                        a full list of input line tags is included here for reference
                         in the order they are inserted in the input file. <br/><br/>
                     </p>
                     <TagEntry
                         tag="#"
                         description='
                             Any line that starts with a "#" will be ignored when the file is run. Any comments
-                            and header information are on lines that begin with "#".'
+                            and header information go on lines that begin with "#".'
                         example={[
                             "Lab Zeppelin",
                             "1234 Black Dog Rd,",
