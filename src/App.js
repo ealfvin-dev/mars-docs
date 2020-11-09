@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import SideNav from './components/SideNav';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
+import Documentation from './pages/Documentation/Documentation';
 import CreatingInputFiles from './pages/Documentation/CreatingInputFiles';
 import SavingDataInDatabase from './pages/Documentation/SavingDataInDatabase';
 import DataVisualization from './pages/Documentation/DataVisualization';
@@ -37,11 +38,12 @@ function App() {
           <Route exact path={"/home"} component={Home} />
           <Route exact path={"/features"} component={Features} />
           <Route exact path={"/about"} component={About} />
-          <Route exact path={"/creatinginputfiles"} component={CreatingInputFiles} />
-          <Route exact path={"/savingdataindatabase"} component={SavingDataInDatabase} />
-          <Route exact path={"/datavisualization"} component={DataVisualization} />
-          <Route exact path={"/debugging"} component={Debugging} />
-          <Route exact path={"/tags"} component={Tags} />
+          <Route exact path={"/documentation"} component={Documentation} />
+          <Route exact path={"/documentation/creatinginputfiles"} component={CreatingInputFiles} />
+          <Route exact path={"/documentation/savingdataindatabase"} component={SavingDataInDatabase} />
+          <Route exact path={"/documentation/datavisualization"} component={DataVisualization} />
+          <Route exact path={"/documentation/debugging"} component={Debugging} />
+          <Route exact path={"/documentation/tags"} component={Tags} />
           <Route exact path={"/validationdetails"} component={ValidationDetails} />
           <Route exact path={"/examplefiles"} component={ExampleFiles} />
           <Route path={"/examplefile"} component={ViewFile} />
