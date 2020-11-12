@@ -8,6 +8,8 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 
+import './SideNav.css'
+
 const drawerWidth = 230;
 
 const useStyles = makeStyles((theme) => ({
@@ -44,23 +46,13 @@ function SideNav(props) {
                 {['Home', 'Features', 'Documentation', 'Validation Details', 'About']
                 .map((text, index) => (
                     <ListItem
-                    key={index}
-                    style={{
-                        paddingTop: '6px',
-                        paddingBottom: '6px',
-                        marginLeft: '0px'
-                    }}
+                        className='menuItem'
+                        key={index}
                     >
-                        <Link 
+                        <Link
+                        className={text === activeTab ? 'activeTab' : 'inactiveTab'}
                         to={"/" + text.replace(/\s+/g, '').toLowerCase()}
                         onClick={handleNavClick}
-                        style={{
-                            textDecoration: 'none',
-                            color: 'white',
-                            fontSize: '12pt',
-                            margin: '4px',
-                            fontWeight: text === activeTab ? 'bold' : 'normal'
-                        }}
                         >
                             {text}
                         </Link>
@@ -72,15 +64,9 @@ function SideNav(props) {
                 {['Example Files'].map((text, index) => (
                 <ListItem key={index}>
                     <Link 
+                    className={text === activeTab ? 'activeTab' : 'inactiveTab'}
                     to={"/examplefiles"}
                     onClick={handleNavClick}
-                    style={{
-                        textDecoration: 'none',
-                        color: 'white',
-                        fontSize: '12pt',
-                        margin: '4px',
-                        fontWeight: text === activeTab ? 'bold' : 'normal'
-                    }}
                     >
                         {text}
                     </Link>

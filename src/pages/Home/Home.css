@@ -4,6 +4,7 @@
     margin: 1%;
     margin-top: -0.5%;
     color: rgba(39.525, 55.335, 74.46, 1);
+    text-align: center;
 }
 
 .homepageText {
@@ -11,6 +12,8 @@
     font-weight: 500;
     margin: 1%;
     margin-top: 0px;
+    text-align: center;
+    white-space: pre;
 }
 
 .homeMain {
@@ -19,4 +22,13 @@
     background-size: cover;
     height: 100vh;
     padding-top: 20vh;
+}
+
+.marsLogoGrid {
+    justify-content: center;
+}
+
+.marsLogo {
+    display: block;
+    margin: auto;
 }
