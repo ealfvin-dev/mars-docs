@@ -10,7 +10,6 @@ import Typography from '@material-ui/core/Typography';
 import Header from '../../components/Header/Header';
 
 import '../pages.css';
-import './ExampleFiles.css';
 
 const useStyles = makeStyles({
     root: {
@@ -22,6 +21,9 @@ const useStyles = makeStyles({
     pos: {
       marginBottom: 12,
     },
+    exampleLink: {
+        textDecoration: 'none',
+    }
 });
 
 function ExampleFiles() {
@@ -47,7 +49,7 @@ function ExampleFiles() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Link to='/examplefile/Example-4-1-config' style={{textDecoration: 'none'}}>
+                                <Link className={classes.exampleLink} to='/examplefile/Example-4-1-config'>
                                     <Button size="small">View</Button>
                                 </Link>
                             </CardActions>
@@ -69,7 +71,7 @@ function ExampleFiles() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Link to='/examplefile/Example-4-1-out' style={{textDecoration: 'none'}}>
+                                <Link className={classes.exampleLink} to='/examplefile/Example-4-1-out'>
                                     <Button size="small">View</Button>
                                 </Link>
                             </CardActions>

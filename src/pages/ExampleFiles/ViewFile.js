@@ -5,7 +5,7 @@ import Header from '../../components/Header/Header';
 import fileTexts from '../../exampleFiles/ExampleFileTexts';
 
 import '../pages.css';
-import './ExampleFiles.css';
+import './ViewFile.css';
 
 function ViewFile() {
     const fileName = window.location.href.split('/').pop()
