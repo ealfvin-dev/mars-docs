@@ -15,11 +15,16 @@ function ValidationDetails() {
                     below have been checked manually and are also automatically re-run every time MARS is opened. This ensures that in the unlikely event of a file becoming 
                     corrupted or computer malfunction, an error will be displayed when the program is opened. These tests can also be run by clicking "Run Tests" 
                     in the menu. <br /> <br />
-                    Solutions to the designs are calculated with the matrix least squares solution in NBS Technical Note 952. <br />
-                    Air densities are calculated using the CIPM 2007 air density equation (Picard et al.). <br /><br />
+                    Solutions to weighing designs are calculated using the matrix least squares solution in {' '}
+                    <a href='https://www.nist.gov/system/files/documents/calibrations/Designs.pdf' target='_blank' rel="noopener noreferrer">NBS Technical Note 952</a>.
+                    <br />
+                    Air densities are calculated using the
+                    CIPM 2007 air density equation 
+                    (<a href='https://www.nist.gov/system/files/documents/calibrations/CIPM-2007.pdf' target='_blank' rel="noopener noreferrer">Picard et al.</a>).
+                    <br /><br />
                     </p>
 
-                    <h2>System Checks</h2>
+                    <h2>System Tests</h2>
 
                     <h3 className="testHeader">Test 1 - Test 6:</h3>
                     <p className="testDesc">
@@ -255,7 +260,7 @@ function ValidationDetails() {
                         Tests that an input file with a design that is incompatible with the weight nominals is identified as incorrect.
                     </p>
 
-                    <h2>Output File Generation</h2>
+                    <h2>Output File Generation Tests</h2>
 
                     <h3 className="testHeader">Test 51:</h3>
                     <p className="testDesc">
@@ -322,7 +327,7 @@ function ValidationDetails() {
                         Tests that the calculated T-value is correctly written to the output file.
                     </p>
 
-                    <h2>Data Storage Checks</h2>
+                    <h2>Data Storage Tests</h2>
 
                     <h3 className="testHeader">Test 78:</h3>
                     <p className="testDesc">
@@ -366,7 +371,7 @@ function ValidationDetails() {
                         Tests that a standard deviation can be deleted from the database.
                     </p>
 
-                    <h2>Data Reduction</h2>
+                    <h2>Data Reduction Tests</h2>
 
                     <h3 className="testHeader">Test 91 - 102:</h3>
                     <p className="testDesc">

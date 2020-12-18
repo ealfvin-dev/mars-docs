@@ -53,7 +53,7 @@ function Documentation() {
                     >
                         Tags
                     </Link>
-                    <p>A full list of input file line tags</p>
+                    <p>A list of input file line tags</p>
                 </div>
             </div>
         </div>

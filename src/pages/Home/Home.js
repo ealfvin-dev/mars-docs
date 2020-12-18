@@ -15,7 +15,7 @@ function Home() {
                 </Grid>
                 <Grid item xs={12}>
                     <h3 className='homepageText'>
-                        <strong>{"Report more accurate precision mass results\r\nwith protection against data-entry errors."}</strong>
+                        <strong>{"Generate high-precision mass calibration results\r\nwith protection against data-entry errors."}</strong>
                     </h3>
                 </Grid>
             </Grid>
