@@ -11,8 +11,8 @@ function About() {
                 <div className='textBlock'>
                     <p>
                     MARS was developed by Erik Alfvin, the former Technical Manager for the State of Minnesota Metrology Laboratory, and now a full-time software engineer.
-                    The idea for MARS came from the desire to develop a tool to help calibration laboratories that use precision-mass weighing designs produce more accurate
-                    results, paired with an easy-to-use graphical interface.
+                    The idea for MARS came from the desire to develop a easy-to-use application that would help calibration laboratories produce more accurate precision-mass
+                    results.
                     <br/> <br/>
                     The most significant improvement to measurement accuracy that MARS offers is line-by-line air buoyancy corrections. This is especially important when measurements are made
                     on automated balances or performed manually when the air pressure changes during the calibration.
