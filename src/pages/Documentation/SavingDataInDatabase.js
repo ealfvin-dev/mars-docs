@@ -8,7 +8,12 @@ function SavingDataInDatabase() {
         <div>
             <Header />
             <div className='pageLayout'>
-                Save data to db
+                <div className='textBlock'>
+                    <h3>Saving Data in the Database</h3>
+                    <p>
+                        Text
+                    </p>
+                </div>
             </div>
         </div>
     )

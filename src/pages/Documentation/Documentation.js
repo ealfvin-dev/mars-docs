@@ -26,7 +26,7 @@ function Documentation() {
                     >
                         Saving Data in Database
                     </Link>
-                    <p>Saving sensitivity weight and standard deviation information in a local database to use again in future calibrations</p>
+                    <p>Saving sensitivity weight and standard deviation data in a local database to use again in future calibrations</p>
                     <br />
 
                     <Link
@@ -42,7 +42,7 @@ function Documentation() {
                         className='docsSectionLink'
                         to={"/documentation/debugging"}
                     >
-                        Debugging
+                        Debugging Input Files
                     </Link>
                     <p>Using the built-in debugging/error checking features to locate errors in input files</p>
                     <br />

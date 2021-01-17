@@ -86,19 +86,19 @@ function Tags() {
 
                     <TagEntry
                         tag="<Gravity-Grad>"
-                        description={"(Optional) If using gravity corrections, the local gravity gradient where the calibration was performed, in 1/s\u00B2. Numeric."}
+                        description={"(Optional) If performing gravity corrections, the local gravity gradient where the calibration was performed, in 1/s\u00B2. Numeric."}
                         example={["0.0000031"]}
                     />
 
                     <TagEntry
                         tag="<Gravity-Local>"
-                        description={"(Optional) If using gravity corrections, the local acceleration of gravity, in m/s\u00B2. Numeric."}
+                        description={"(Optional) If performing gravity corrections, the local acceleration of gravity, in m/s\u00B2. Numeric."}
                         example={["9.783"]}
                     />
 
                     <TagEntry
                         tag="<Height>"
-                        description="(Optional) If using gravity corrections, the height of the center of mass of each weight, in cm. Numeric."
+                        description="(Optional) If performing gravity corrections, the height of the center of mass of each weight, in cm. Numeric."
                         example={[
                             "2.0",
                             "2.4",
