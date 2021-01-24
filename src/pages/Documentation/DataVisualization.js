@@ -13,29 +13,29 @@ function DataVisualization() {
                 <div className='textBlock'>
                     <h3>Data Visualization</h3>
                     <p>
-                        After you build and run an input file, you will be able to see visualizations of the data by clicking the
+                        After you build and run an input file, you can visualize the data by clicking the
                         Visualization tab in the top menu bar. This will open a dashboard with three data plots per series in the
                         calibration. If you make changes to an input file, the file must be re-run for the changes to show in the
                         visualization dashboard.
                     </p>
                     <br/>
 
+                    <h3>Plots:</h3>
                     <h3>Residuals vs Observation #</h3>
                     <p>
-                        The upper-left plot is a plot of the residuals for each observation in the given calibration. The residuals are
+                        In the upper-left, you will see a plot of the residuals for each observation in the given calibration. The residuals are
                         color-coded relative to the accepted within-process standard deviation, with green being low and red being high.
                         If there is a bar that is much higher than the accepted within-process standard deviation, it could indicate that
                         there was a problem with that line in the calibration.
                     </p>
 
-                    <h3>Sensivity vs Observation #</h3>
+                    <h3>Sensitivity vs Observation #</h3>
                     <p>
                         The lower-left plot shows balance sensitivities for each observation in the given calibration. These bars are not color coded.
-                        If there is a sensitivity that is much different than the others, it could indicate that there was a problem with
-                        that line in the calibration.
+                        A sensitivity that differs greatly from the others could indicate a problem with that line in the calibration.
                     </p>
 
-                    <h3>Sensivity vs Delta vs Observation #</h3>
+                    <h3>Sensitivity vs Delta vs Temperature</h3>
                     <p>
                         The plot on the right shows balance sensitivity vs the absolute value of the residuals (deltas) vs temperature.
                         The plot is intended to show if there are any relationships between sensitivity, deltas and the temperature.
