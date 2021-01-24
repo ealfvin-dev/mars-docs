@@ -1,26 +1,27 @@
-#  Lab Zeppelin
+const example4In1Config = 
+`#  Lab Zeppelin
 #  1234 Black Dog Rd,
 #  Misty Mountain CA, 54321
-
+    
     <Report-Number>  Example-4-1
-
+    
      <Restraint-ID>  055
     <Unc-Restraint>  0.034
-
+    
 @SERIES
              <Date>  09 13 2020
     <Technician-ID>  019
        <Balance-ID>  003
-
+    
   <Direct-Readings>  1
 <Direct-Reading-SF>  1.0027
          <Check-ID>  054
             <Grams>  1
 
-         <Position>  A1kg           1000 7.9436 0.000045
-         <Position>  B1kg           1000 7.9926 0.000045 3.961
-         <Position>  C1kg           1000 7.9435 0.000045
-         <Position>  D1kg           1000 7.9926 0.000045 6.353
+         <Position>  A1kg     1000 7.9436 0.000045
+         <Position>  B1kg     1000 7.9926 0.000045  3.961
+         <Position>  C1kg     1000 7.9435 0.000045
+         <Position>  D1kg     1000 7.9926 0.000045  6.353
 
         <Design-ID>  112
            <Design>  1 -1  0  0
@@ -70,3 +71,6 @@
   <Balance-Reading>  -6.7592	
   <Balance-Reading>  2.3887	
   <Balance-Reading>  9.1477
+`
+
+export default example4In1Config;

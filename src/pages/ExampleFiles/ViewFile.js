@@ -2,13 +2,20 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Header from '../../components/Header/Header';
-import fileTexts from '../../exampleFiles/ExampleFileTexts';
+import example4In1Config from '../../exampleFiles/Example-4-1-config';
+import example4In1Out from '../../exampleFiles/Example-4-1-out';
 
 import '../pages.css';
 import './ViewFile.css';
 
 function ViewFile() {
-    const fileName = window.location.href.split('/').pop()
+    const fileTexts = {
+        'Example-4-1-config': example4In1Config,
+        'Example-4-1-out': example4In1Out
+    };
+
+    const fileName = window.location.href.split('/').pop();
+    
     return (
         <div>
             <Header />
