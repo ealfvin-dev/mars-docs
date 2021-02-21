@@ -2,8 +2,8 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Header from '../../components/Header/Header';
-import example4In1Config from '../../exampleFiles/Example-4-1-config';
-import example4In1Out from '../../exampleFiles/Example-4-1-out';
+import example4In1Config from '../../exampleFileTexts/Example-4-1-config';
+import example4In1Out from '../../exampleFileTexts/Example-4-1-out';
 
 import '../pages.css';
 import './ViewFile.css';
