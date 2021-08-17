@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.25f9f731.chunk.css",
-    "main.js": "/static/js/main.a6bc9f1e.chunk.js",
-    "main.js.map": "/static/js/main.a6bc9f1e.chunk.js.map",
+    "main.js": "/static/js/main.37c6c04b.chunk.js",
+    "main.js.map": "/static/js/main.37c6c04b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ab5ba188.js",
     "runtime-main.js.map": "/static/js/runtime-main.ab5ba188.js.map",
     "static/js/2.29b9ca33.chunk.js": "/static/js/2.29b9ca33.chunk.js",
     "static/js/2.29b9ca33.chunk.js.map": "/static/js/2.29b9ca33.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0000c1362e1483fc26261866d3f88d69.js": "/precache-manifest.0000c1362e1483fc26261866d3f88d69.js",
+    "precache-manifest.ddb4251271028db39d8b2f83babe0ab2.js": "/precache-manifest.ddb4251271028db39d8b2f83babe0ab2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.25f9f731.chunk.css.map": "/static/css/main.25f9f731.chunk.css.map",
     "static/js/2.29b9ca33.chunk.js.LICENSE.txt": "/static/js/2.29b9ca33.chunk.js.LICENSE.txt",
@@ -17,8 +17,8 @@
     "static/media/Gravity.jpg": "/static/media/Gravity.78a08bdf.jpg",
     "static/media/Input-Buttons.jpg": "/static/media/Input-Buttons.11e571b7.jpg",
     "static/media/MarsFELogo.png": "/static/media/MarsFELogo.e86419f1.png",
-    "static/media/dashboard-ui-small.jpg": "/static/media/dashboard-ui-small.eb490d79.jpg",
-    "static/media/dashboard-ui.jpg": "/static/media/dashboard-ui.31dccb9e.jpg",
+    "static/media/dashboard-ui-small.jpg": "/static/media/dashboard-ui-small.d4a72393.jpg",
+    "static/media/dashboard-ui.jpg": "/static/media/dashboard-ui.cb5dde79.jpg",
     "static/media/debug.jpg": "/static/media/debug.3cd8a2d6.jpg",
     "static/media/error-handling-small.jpg": "/static/media/error-handling-small.060ba478.jpg",
     "static/media/error-handling.jpg": "/static/media/error-handling.ce23ee9a.jpg",
@@ -27,8 +27,8 @@
     "static/media/inputTags.jpg": "/static/media/inputTags.b941b309.jpg",
     "static/media/logo-out.png": "/static/media/logo-out.2f15694c.png",
     "static/media/Home.css": "/static/media/mars-planet-out.1a03ffc3.jpg",
-    "static/media/mars-ui-small.jpg": "/static/media/mars-ui-small.2ca9fb8a.jpg",
-    "static/media/mars-ui.jpg": "/static/media/mars-ui.725c5c80.jpg",
+    "static/media/mars-ui-small.jpg": "/static/media/mars-ui-small.e99c8a9d.jpg",
+    "static/media/mars-ui.jpg": "/static/media/mars-ui.0b23340d.jpg",
     "static/media/split-series.jpg": "/static/media/split-series.221a39fa.jpg",
     "static/media/sw-database-b.jpg": "/static/media/sw-database-b.90bdf026.jpg"
   },
@@ -36,6 +36,6 @@
     "static/js/runtime-main.ab5ba188.js",
     "static/js/2.29b9ca33.chunk.js",
     "static/css/main.25f9f731.chunk.css",
-    "static/js/main.a6bc9f1e.chunk.js"
+    "static/js/main.37c6c04b.chunk.js"
   ]
 }

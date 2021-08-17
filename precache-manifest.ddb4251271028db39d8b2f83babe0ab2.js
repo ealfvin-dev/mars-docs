@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d87eb24e8d013f33fb4716127c66fc9b",
+    "revision": "19bc682218ee81663048f055ad795d5d",
     "url": "/index.html"
   },
   {
-    "revision": "c0c8648eb2fe862ab162",
+    "revision": "7d24a32df5aeb8977c6e",
     "url": "/static/css/main.25f9f731.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.29b9ca33.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0c8648eb2fe862ab162",
-    "url": "/static/js/main.a6bc9f1e.chunk.js"
+    "revision": "7d24a32df5aeb8977c6e",
+    "url": "/static/js/main.37c6c04b.chunk.js"
   },
   {
     "revision": "5bb07f7d932a58aaf7c0",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/MarsFELogo.e86419f1.png"
   },
   {
-    "revision": "eb490d7964cb85fd916dc2b2d6115482",
-    "url": "/static/media/dashboard-ui-small.eb490d79.jpg"
+    "revision": "d4a7239301020b8c1880b8ffda3deae9",
+    "url": "/static/media/dashboard-ui-small.d4a72393.jpg"
   },
   {
-    "revision": "31dccb9e611257180bf536beb1ff4251",
-    "url": "/static/media/dashboard-ui.31dccb9e.jpg"
+    "revision": "cb5dde79bd825070caf6d4c66d765284",
+    "url": "/static/media/dashboard-ui.cb5dde79.jpg"
   },
   {
     "revision": "3cd8a2d6a8577041048ccf17bed0f663",
@@ -84,12 +84,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mars-planet-out.1a03ffc3.jpg"
   },
   {
-    "revision": "2ca9fb8aa7926ef1978186dd954713e7",
-    "url": "/static/media/mars-ui-small.2ca9fb8a.jpg"
+    "revision": "e99c8a9db2293996e03eec433620add4",
+    "url": "/static/media/mars-ui-small.e99c8a9d.jpg"
   },
   {
-    "revision": "725c5c80f9b9f84e44c3b598b9a69243",
-    "url": "/static/media/mars-ui.725c5c80.jpg"
+    "revision": "0b23340d260b639acf060a31fe9d0fc3",
+    "url": "/static/media/mars-ui.0b23340d.jpg"
   },
   {
     "revision": "221a39fa635682d1773a1095f178bb08",
