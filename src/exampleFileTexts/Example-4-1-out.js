@@ -5,6 +5,7 @@ const example4In1Out =
 
 REPORT_NUMBER  Example-4-1
 RESTRAINT_ID  055
+RESTRAINT_UNC  0.034 mg
 
 ***SERIES 1***
 
@@ -27,7 +28,7 @@ POSITIONS  4
 OBSERVATIONS  12
 
 ##ENVIRONMENTALS (CORRECTED)##
-        T(˚C) P(mmHg) RH(%)  AIR DENSITY(g/cm)
+     T(DEG C) P(mmHg) RH(%)  AIR DENSITY(g/cm)
 1:     21.10  731.96  48.26  0.00115036
 2:     21.10  731.96  48.26  0.00115036
 3:     21.10  731.96  48.26  0.00115036
@@ -58,8 +59,8 @@ CORR:  -0.30    0.90   0.70
 12:   9.1477
 
 ##METRICS##
-    LOAD       A(I)     DELTA    OBS SENSITIVITY    AVE SENSITIVITY
-    (g)        (mg)      (mg)           (mg/DIV)           (mg/DIV)
+      LOAD       A(I)     DELTA    OBS SENSITIVITY    AVE SENSITIVITY
+      (g)        (mg)      (mg)           (mg/DIV)           (mg/DIV)
 1:    1000   -5.88823  -0.00021            1.00270            1.00270
 2:    1000   -0.00002   0.00025            1.00270            1.00270
 3:    1000   -8.28283   0.00046            1.00270            1.00270
@@ -75,8 +76,8 @@ CORR:  -0.30    0.90   0.70
 
 ##STATISTICS##
 #F-TEST
-ACCEPTED_SW  0.0013 MG
-OBSERVED_SW  0.00071 MG
+ACCEPTED_SW  0.0013 mg
+OBSERVED_SW  0.00071 mg
 CRITICAL_F-VALUE  1.89
 OBSERVED_F-VALUE  0.3
 --------
@@ -84,22 +85,22 @@ OBSERVED_F-VALUE  0.3
 --------
 
 #T-TEST
-ACCEPTED_CHECK_STANDARD_CORRECTION  2.392 MG
-OBSERVED_CHECK_STANDARD_CORRECTION  2.395269 MG
-ACCEPTED_ST  0.0029 MG
-CRITICAL_T-VALUE  1.65
-OBSERVED_T-VALUE  1.13
+ACCEPTED_CHECK_STANDARD_CORRECTION  2.392 mg
+OBSERVED_CHECK_STANDARD_CORRECTION  2.395269 mg
+CHECK_STANDARD_TYPE_A_UNC  0.002765 mg
+CRITICAL_T-VALUE  1.96
+OBSERVED_T-VALUE  1.18
 --------
 | PASS |
 --------
 
-WEIGHT ID     NOMINAL    DENSITY      CCE         TRUE MASS    CORRECTION
-                (g)      (g/cm)      (/˚C)              (g)          (mg)
------------  ---------  ---------  ---------  -------------  ------------
-A1kg           1000      7.94360   0.0000450   999.99807134      -1.92866
-B1kg           1000      7.99260   0.0000450  1000.00395937       3.95937
-C1kg           1000      7.94350   0.0000450   999.99807161      -1.92839
-D1kg           1000      7.99260   0.0000450  1000.00635463       6.35463
+ID     NOMINAL    DENSITY      CCE       TYPE A UNC    TYPE B UNC       TRUE MASS    CORRECTION
+         (g)      (g/cm)     (/DEG C)       (mg)          (mg)                (g)          (mg)
+----  ---------  ---------  ----------  ------------  ------------  -------------  ------------
+A1kg    1000      7.94360   0.0000450     0.00239       0.01700      999.99807134      -1.92866
+B1kg    1000      7.99260   0.0000450     0.00138       0.01700     1000.00395937       3.95937
+C1kg    1000      7.94350   0.0000450     0.00239       0.01700      999.99807161      -1.92839
+D1kg    1000      7.99260   0.0000450     0.00138       0.01700     1000.00635463       6.35463
 `
 
 export default example4In1Out;

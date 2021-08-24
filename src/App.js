@@ -7,6 +7,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Documentation from './pages/Documentation/Documentation';
 import CreatingInputFiles from './pages/Documentation/CreatingInputFiles';
+import GettingStarted from './pages/Documentation/GettingStarted';
 import SavingDataInDatabase from './pages/Documentation/SavingDataInDatabase';
 import DataVisualization from './pages/Documentation/DataVisualization';
 import Debugging from './pages/Documentation/Debugging';
@@ -39,6 +40,7 @@ function App() {
           <Route exact path={"/features"} component={Features} />
           <Route exact path={"/about"} component={About} />
           <Route exact path={"/documentation"} component={Documentation} />
+          <Route exact path={"/documentation/gettingstarted"} component={GettingStarted} />
           <Route exact path={"/documentation/creatinginputfiles"} component={CreatingInputFiles} />
           <Route exact path={"/documentation/savingdataindatabase"} component={SavingDataInDatabase} />
           <Route exact path={"/documentation/datavisualization"} component={DataVisualization} />

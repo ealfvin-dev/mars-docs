@@ -13,6 +13,15 @@ function Documentation() {
                 <div className='textBlock'>
                     <Link
                         className='docsSectionLink'
+                        to={"/documentation/gettingstarted"}
+                    >
+                        Getting Started
+                    </Link>
+                    <p>Quick start instructions and Mars setup</p>
+                    <br />
+
+                    <Link
+                        className='docsSectionLink'
                         to={"/documentation/creatinginputfiles"}
                     >
                         Creating Input Files

@@ -42,7 +42,7 @@ const example4In1Config =
         <Pass-Down>  0 0 0 0
 
           <Sigma-w>  0.0013
-          <Sigma-t>  0.0029
+          <Sigma-b>  0.0019
 
    <Environmentals>  20.80 732.86 48.96
    <Environmentals>  20.80 732.86 48.96
