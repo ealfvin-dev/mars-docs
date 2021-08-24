@@ -171,8 +171,8 @@ function Tags() {
                     />
 
                     <TagEntry
-                        tag="<Sigma-t>"
-                        description="The long-term standard deviation of the calibration, in mg. Numeric."
+                        tag="<Sigma-b>"
+                        description="The between-time standard deviation of the calibration, in mg. Numeric."
                         example={["0.033"]}
                     />
 
