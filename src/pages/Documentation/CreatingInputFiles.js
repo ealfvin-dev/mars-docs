@@ -9,7 +9,7 @@ function CreatingInputFiles() {
             <Header />
             <div className='pageLayout'>
                 <div className='textBlock'>
-                    <h3>Creating Input Files</h3>
+                    <h2>Creating Input Files</h2>
                     <p>
                         Text
                     </p>

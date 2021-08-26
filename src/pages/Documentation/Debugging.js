@@ -9,7 +9,7 @@ function Debugging() {
             <Header />
             <div className='pageLayout'>
                 <div className='textBlock'>
-                    <h3>Debugging Input Files</h3>
+                    <h2>Debugging Input Files</h2>
                     <p>
                         MARS has a built-in debugger that checks for inconsistencies and mistakes in input data files.
                         The checks are run each time the Run button is clicked to run an input file. You can also run

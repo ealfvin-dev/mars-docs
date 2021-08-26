@@ -10,7 +10,7 @@ function Tags() {
             <Header />
             <div className='pageLayout'>
                 <div className='textBlock'>
-                    <h3>Tags</h3>
+                    <h2>Tags</h2>
                     <p>
                         When building input files in the user interface, line tags are automatically
                         inserted on each line so you will not need to remember input tags. However,

@@ -11,7 +11,7 @@ function DataVisualization() {
             <Header />
             <div className='pageLayout'>
                 <div className='textBlock'>
-                    <h3>Data Visualization</h3>
+                    <h2>Data Visualization</h2>
                     <p>
                         After you build and run an input file, you can visualize the data by clicking the
                         Visualization tab in the top menu bar. This will open a dashboard with three data plots per series in the
