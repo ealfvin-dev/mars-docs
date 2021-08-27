@@ -18,6 +18,9 @@ function GettingStarted() {
                     <h3>2. Move shortcut</h3>
                     <p>
                         In the Mars-Dist folder there is a shortcut file called Mars - Shortcut.lnk.
+                    </p>
+                    <img src={require('./Images/Dist-Files.jpg')} width='652px' alt="Mars files" />
+                    <p>
                         This is the file that should be used to run the Mars application. Move this shortcut
                         out of the Mars-Dist folder and onto the desktop or another easily accessible location.
                         It is recommended not to run Mars from the original Mars-Dist folder since the folder
