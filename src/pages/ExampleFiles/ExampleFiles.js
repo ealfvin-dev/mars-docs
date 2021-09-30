@@ -78,6 +78,8 @@ function ExampleFiles() {
                         </Card>
                     </Grid>
 
+                    <Grid item xs={6}></Grid>
+
                     <Grid item>
                         <Card className={classes.root} variant="outlined">
                             <CardContent>
@@ -118,9 +120,7 @@ function ExampleFiles() {
                         </Card>
                     </Grid>
 
-                    <Grid item xs={12}>
-
-                    </Grid>
+                    <Grid item xs={6}></Grid>
 
                     <Grid item>
                         <Card className={classes.root} variant="outlined">
@@ -162,6 +162,8 @@ function ExampleFiles() {
                         </Card>
                     </Grid>
 
+                    <Grid item xs={6}></Grid>
+
                     <Grid item>
                         <Card className={classes.root} variant="outlined">
                             <CardContent>
@@ -202,7 +204,7 @@ function ExampleFiles() {
                         </Card>
                     </Grid>
 
-                    <Grid item xs={12}>
+                    <Grid item xs={6}>
 
                     </Grid>
 

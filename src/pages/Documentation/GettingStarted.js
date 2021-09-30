@@ -34,7 +34,7 @@ function GettingStarted() {
                         Open Mars by double clicking on the shortcut. Once the internal tests have run you should see the home screen.
                         There is only one piece of setup to do that will make life easier when running files and that is to
                         edit the default file path. You will be opening configuration files from your local file system in Mars
-                        and the default file path is just the location in your file system that Mars will start the file navigation at.
+                        and the default file path is the location in your file system where Mars will start the file navigation.
                         This can always be edited again later.
                     </p>
                     <p>

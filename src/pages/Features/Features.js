@@ -43,7 +43,7 @@ function Features() {
                         <h3>Data Visualization Dashboard</h3>
                         <p>
                             Visualize measurement results and spot trends within the calibration. If the F or T test fail,
-                            use the plots to identify mistakes that may have occurred durign the calibration process. Assess balance
+                            use the plots to identify mistakes that may have occurred during the calibration process. Assess balance
                             performance over the course of a calibration and any dependencies it may have on operating temperature.
                         </p>
                     </Grid>

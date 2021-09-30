@@ -24,7 +24,7 @@ function Tags() {
                             and header information go on lines that begin with "#".'
                         example={[
                             "Lab Zeppelin",
-                            "1234 Black Dog Rd,",
+                            "1234 Black Dog Rd",
                             "Misty Mountain CA, 54321"
                         ]}
                     />

@@ -1,6 +1,6 @@
 const example4In1Config = 
 `#  Lab Zeppelin
-#  1234 Black Dog Rd,
+#  1234 Black Dog Rd
 #  Misty Mountain CA, 54321
     
     <Report-Number>  Example-4-1
